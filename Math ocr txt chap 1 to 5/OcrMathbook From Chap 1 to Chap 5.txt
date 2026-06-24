@@ -1,0 +1,3899 @@
+
+================================================================
+MATHEMATICS - CLASS 9
+PUNJAB CURRICULUM AND TEXTBOOK BOARD, LAHORE
+================================================================
+
+================================================================
+UNIT 1: REAL NUMBERS
+================================================================
+
+STUDENTS' LEARNING OUTCOMES
+----------------------------------------------------------------
+At the end of the unit, the students will be able to:
+
+  - Explain, with examples, that civilizations throughout history
+    have systematically studied living things [e.g., the history
+    of numbers from Sumerians and its development to the present
+    Arabic system]
+  - Describe the set of real numbers as a combination of rational
+    and irrational numbers
+  - Demonstrate and verify the properties of equality and
+    inequality of real numbers
+  - Apply laws of indices to simplify radical expressions
+  - Apply concepts of real numbers to real-world problems (such
+    as temperature, banking, measures of gain and loss, sources
+    of income and expenditure)
+
+================================================================
+1.1  INTRODUCTION TO REAL NUMBERS
+================================================================
+
+The history of numbers comprises thousands of years, from ancient
+civilization to the modern Arabic system. Here is a brief overview:
+
+Sumerians (1900 - 4500 BCE):
+  Used a sexagesimal (base 60) system for counting. The Sumerians
+  used a small cone, bead, large cone, large perforated cone,
+  sphere and perforated sphere, corresponding to 1, 10, 60, 600,
+  3600 and 36000.
+
+Egyptians (2000 - 3000 BCE):
+  Used a decimal (base 10) system for counting. The Egyptians
+  usually wrote numbers left to right, starting with the highest
+  place value. For example, 2525 would be written with 2000 first,
+  then 500, 20, and 5.
+
+  Egyptian number symbols:
+    1 | 10 | 100 | 1,000 | 10,000 | 100,000 | 1,000,000
+
+Romans (500 BCE - 500 CE):
+  Used the Roman numerals system for counting. Roman numerals
+  represent a number system that was widely used throughout Europe
+  as the standard writing system until the late Middle Ages.
+  The ancient Romans explained that when a number reaches 10 it
+  is not easy to count on one's fingers. Therefore, there was a
+  need to create a proper number system that could be used for
+  trade and communications. Roman numerals use 7 letters to
+  represent different numbers:
+    I=1, V=5, X=10, L=50, C=100, D=500, M=1000
+
+Indians (500 - 1200 CE):
+  Developed the concept of zero (0) and made a significant
+  contribution to the decimal (base 10) system. Ancient Indian
+  mathematicians have contributed immensely to the field of
+  mathematics. The invention of zero is attributed to Indians,
+  and this contribution outweighs all others made by any other
+  nation since it is the basis of the decimal number system,
+  without which no advancement in mathematics would have been
+  possible. The number system used today was invented by Indians,
+  and it is still called Indo-Arabic numerals.
+
+Arabs (800 - 1500 CE):
+  Introduced Arabic numerals (0-9) to Europe. The Islamic world
+  underwent significant developments in mathematics. Muhammad ibn
+  Musa al-Khwarizmi played a key role in this transformation,
+  introducing algebra as a distinct field in the 9th century.
+  Al-Khwarizmi's approach, departing from earlier arithmetical
+  traditions, laid the groundwork for the arithmetization of
+  algebra. Successors like Al-Karaji expanded on his work,
+  contributing to advancements in various mathematical domains.
+
+Modern Era (1700 - present):
+  Developed modern number systems e.g., binary system (base-2)
+  and hexadecimal system (base-16). The Arabic system is the
+  basis for the modern decimal system used globally today.
+
+  In the modern era, the set {1, 2, 3, ...} was adopted as the
+  counting set. This counting set represents the set of natural
+  numbers, extended to set of real numbers which is used most
+  frequently in everyday life.
+
+----------------------------------------------------------------
+1.1.1  COMBINATION OF RATIONAL AND IRRATIONAL NUMBERS
+----------------------------------------------------------------
+
+The set of rational numbers is defined as:
+  Q = { p/q ; p, q ∈ Z ∧ q ≠ 0 }
+
+The set of irrational numbers (Q') contains those elements which
+cannot be expressed as quotient of integers.
+
+The set of Real numbers is the union of rational and irrational:
+  R = Q ∪ Q'
+
+Structure of Real Numbers:
+  Real Numbers
+  ├── Rational Numbers
+  │   ├── Terminating Decimal Numbers
+  │   └── Non-terminating and Recurring Decimal Numbers
+  └── Irrational Numbers
+      └── Non-terminating and Non-recurring Decimal Numbers
+
+----------------------------------------------------------------
+1.1.2  DECIMAL REPRESENTATION OF RATIONAL NUMBERS
+----------------------------------------------------------------
+
+(i) Terminating Decimal Numbers
+  A decimal number with a finite number of digits after the
+  decimal point is called a terminating decimal number.
+
+  Examples:
+    1/4 = 0.25
+    8/25 = 0.32
+    3/8 = 0.375
+    4/5 = 0.8
+
+(ii) Non-Terminating and Recurring Decimal Numbers
+  Decimal numbers with an infinitely repeating pattern of digits
+  after the decimal point.
+
+  Examples:
+    1/3  = 0.333...  = 0.3̄   (3 repeats infinitely)
+    1/6  = 0.1666... = 0.16̄  (6 repeats infinitely)
+    22/7 = 3.142857142857... = 3.1̄4̄2̄8̄5̄7̄ (pattern 142857 repeats)
+    4/9  = 0.4444... = 0.4̄   (4 repeats infinitely)
+
+  Note: Non-terminating and recurring decimal numbers are also
+  rational numbers.
+
+----------------------------------------------------------------
+1.1.3  DECIMAL REPRESENTATION OF IRRATIONAL NUMBERS
+----------------------------------------------------------------
+
+Decimal numbers that do not repeat a pattern of digits after the
+decimal point and continue indefinitely without terminating are
+called irrational numbers (Non-terminating and non-recurring).
+
+Examples:
+  π = 3.1415926535897932...
+  e = 2.71828182845904...
+  √2 = 1.41421356237309...
+
+  [Remember!] e = 2.7182... is called Euler's Number.
+
+EXAMPLE 1: Identify the following as rational or irrational:
+  (i)   0.35          → Terminating → RATIONAL
+  (ii)  0.444...      → Non-terminating, recurring → RATIONAL
+  (iii) 3.5 = 3.555...→ Non-terminating, recurring → RATIONAL
+  (iv)  3.36788542... → Non-terminating, non-recurring → IRRATIONAL
+  (v)   1.709975947...→ Non-terminating, non-recurring → IRRATIONAL
+
+----------------------------------------------------------------
+1.1.4  REPRESENTATION OF RATIONAL AND IRRATIONAL NUMBERS
+        ON NUMBER LINE
+----------------------------------------------------------------
+
+EXAMPLE 2: Represent √5 on a number line.
+
+Solution:
+  √5 = 2.236... (near to 2)
+  Draw a line mAB = 1 unit at point A, where mOA = 2 units.
+  This gives a right-angled triangle OAB.
+
+  By Pythagoras theorem:
+    (mOB)² = (mOA)² + (mAB)²
+           = (2)² + (1)²
+           = 4 + 1 = 5
+    ⟹ mOB = √5
+
+  Draw an arc of radius mOB = √5 with centre O.
+  Point P represents √5 on the number line.
+  So |OP| = √5
+
+  Number line: ...-2...-1...O...1...A(2)...P(√5)...3...4...
+
+  [Remember!]
+    (i)  Rational + Irrational = Irrational
+    (ii) Rational (≠0) × Irrational = Irrational
+
+EXAMPLE 3: Express recurring decimals as rational number p/q.
+
+(i) 0.5̄
+  Let x = 0.5555...        ...(i)
+  Multiply both sides by 10:
+    10x = 5.5555...        ...(ii)
+  Subtract (i) from (ii):
+    10x - x = 5.5555... - 0.5555...
+    9x = 5
+    x = 5/9  ✓
+
+(ii) 0.9̄3̄
+  Let x = 0.939393...      ...(i)
+  Multiply both sides by 100:
+    100x = 93.939393...    ...(ii)
+  Subtract (i) from (ii):
+    99x = 93
+    x = 93/99  ✓
+
+EXAMPLE 4: Find two rational numbers between 2 and 3.
+
+Solution:
+  Average of 2 and 3 = (2+3)/2 = 5/2
+
+  For another: average of 5/2 and 3:
+    (5/2 + 3)/2 = (11/2)/2 = 11/4
+
+  Answer: 5/2 and 11/4 are two rational numbers between 2 and 3.
+
+----------------------------------------------------------------
+1.1.5  PROPERTIES OF REAL NUMBERS
+----------------------------------------------------------------
+
+ADDITIVE PROPERTIES (∀ a, b, c ∈ R)
+  ┌─────────────────┬──────────────────────────┬────────────────────┐
+  │ Property        │ Rule                     │ Example            │
+  ├─────────────────┼──────────────────────────┼────────────────────┤
+  │ Closure         │ a + b ∈ R                │ 2+3=5 ∈ R          │
+  │ Commutative     │ a + b = b + a            │ 2+5 = 5+2 = 7      │
+  │ Associative     │ a+(b+c) = (a+b)+c        │ 2+(3+5)=(2+3)+5    │
+  │ Identity        │ a + 0 = a = 0 + a        │ 5+0 = 5 = 0+5      │
+  │ Inverse         │ a + (-a) = -a + a = 0    │ 6+(-6)=(-6)+6=0    │
+  └─────────────────┴──────────────────────────┴────────────────────┘
+
+MULTIPLICATIVE PROPERTIES (∀ a, b, c ∈ R)
+  ┌─────────────────┬──────────────────────────┬────────────────────┐
+  │ Property        │ Rule                     │ Example            │
+  ├─────────────────┼──────────────────────────┼────────────────────┤
+  │ Closure         │ ab ∈ R                   │ 2×5=10 ∈ R         │
+  │ Commutative     │ ab = ba                  │ 2×3=3×2=6          │
+  │ Associative     │ a(bc) = (ab)c            │ 2×(3×5)=(2×3)×5    │
+  │ Identity        │ a×1 = 1×a = a            │ 5×1=1×5=5          │
+  │ Inverse         │ a × (1/a) = (1/a) × a=1  │ 7×(1/7)=(1/7)×7=1  │
+  └─────────────────┴──────────────────────────┴────────────────────┘
+
+DISTRIBUTIVE PROPERTIES (∀ a, b, c ∈ R)
+  (i)   a(b+c) = ab+ac   [Left distributive over addition]
+  (ii)  a(b-c) = ab-ac   [Left distributive over subtraction]
+  (iii) (a+b)c = ac+bc   [Right distributive over addition]
+  (iv)  (a-b)c = ac-bc   [Right distributive over subtraction]
+
+  [Remember!] 0 ∈ R has no multiplicative inverse.
+  [Do you know?] 0 and 1 are the additive and multiplicative
+                 identities of real numbers respectively.
+
+PROPERTIES OF EQUALITY OF REAL NUMBERS
+  ┌────┬──────────────────────────────┬──────────────────────────────────────┐
+  │ i  │ Reflexive property           │ ∀ a ∈ R, a = a                       │
+  │ ii │ Symmetric property           │ ∀ a,b ∈ R, a=b ⟹ b=a                │
+  │ iii│ Transitive property          │ ∀ a,b,c ∈ R, a=b ∧ b=c ⟹ a=c        │
+  │ iv │ Additive property            │ ∀ a,b,c ∈ R, a=b ⟹ a+c=b+c          │
+  │ v  │ Multiplicative property      │ ∀ a,b,c ∈ R, a=b ⟹ ac=bc            │
+  │ vi │ Cancellation (addition)      │ ∀ a,b,c ∈ R, a+c=b+c ⟹ a=b          │
+  │ vii│ Cancellation (multiplication)│ ∀ a,b,c ∈ R, c≠0, ac=bc ⟹ a=b       │
+  └────┴──────────────────────────────┴──────────────────────────────────────┘
+
+ORDER PROPERTIES
+  i.   Trichotomy:  ∀ a,b ∈ R, either a=b or a>b or a<b
+  ii.  Transitive:  a>b ∧ b>c ⟹ a>c  |  a<b ∧ b<c ⟹ a<c
+  iii. Additive:    a>b ⟹ a+c > b+c  |  a<b ⟹ a+c < b+c
+  iv.  Multiplicative:
+         a>b ⟹ ac>bc if c>0  |  a>b ⟹ ac<bc if c<0
+         a<b ⟹ ac<bc if c>0  |  a<b ⟹ ac>bc if c<0
+  v.   Division:
+         a<b ⟹ a/c < b/c if c>0
+         a<b ⟹ a/c > b/c if c<0
+  vi.  Reciprocal: ∀ a,b ∈ R (same sign)
+         a<b ⟹ 1/a > 1/b  |  a>b ⟹ 1/a < 1/b
+
+EXAMPLE 5: If a=2/3, b=3/2, c=5/3, verify distributive properties.
+
+(i) Left distributive: a(b+c) = ab+ac
+  LHS = (2/3)(3/2 + 5/3)
+      = (2/3)((9+10)/6)
+      = (2/3)(19/6)
+      = 19/9
+
+  RHS = (2/3)(3/2) + (2/3)(5/3)
+      = 1 + 10/9
+      = (9+10)/9
+      = 19/9
+
+  LHS = RHS ✓  Hence a(b+c) = ab+ac verified.
+
+(ii) Right distributive: (a+b)c = ac+bc
+  LHS = (2/3 + 3/2)(5/3)
+      = ((4+9)/6)(5/3)
+      = (13/6)(5/3)
+      = 65/18
+
+  RHS = (2/3)(5/3) + (3/2)(5/3)
+      = 10/9 + 15/6
+      = (20+45)/18
+      = 65/18
+
+  LHS = RHS ✓  Hence (a+b)c = ac+bc verified.
+
+EXAMPLE 6: Identify the property used:
+
+(i)  a>13 ⟹ a+2>15
+       Add 2 both sides: a+2 > 13+2 → ORDER PROPERTY (addition)
+
+(ii) 3<9 and 6<12 ⟹ 9<21
+       3+6 < 9+12 → ORDER PROPERTY (addition)
+
+(iii) 7>4 and 5>3 ⟹ 35>12
+       7×5 > 4×3 → ORDER PROPERTY (multiplication)
+
+(iv) -5<-4 ⟹ 20>16
+       Multiply both sides by -4:
+       (-5)×(-4) > (-4)×(-4) → ORDER PROPERTY (multiplication)
+
+----------------------------------------------------------------
+EXERCISE 1.1
+----------------------------------------------------------------
+
+1. Identify each as rational or irrational:
+   (i) 2.353535    (ii) 0.6        (iii) 2.236067...
+   (iv) √7         (v) e           (vi) π
+   (vii) 5+√11     (viii) √3+√13  (ix) 15/4
+   (x) (2-√2)(2+√2)
+
+2. Represent on number line:
+   (i) √2    (ii) √3    (iii) 4⅓    (iv) -2⅛    (v) 5/8    (vi) 2¾
+
+3. Express as rational number p/q (q≠0):
+   (i) 0.4̄    (ii) 0.3̄7̄    (iii) 0.2̄1̄
+
+4. Name the property used:
+   (i)   (a+4)+b = a+(4+b)
+   (ii)  √2+√3 = √3+√2
+   (iii) x-x = 0
+   (iv)  a(b+c) = ab+ac
+   (v)   16+0 = 16
+   (vi)  100×1 = 100
+   (vii) 4×(5×8) = (4×5)×8
+   (viii)ab = ba
+
+5. Name the property used:
+   (i)   -3<-1 ⟹ 0<2
+   (ii)  a<b ⟹ 1/a > 1/b
+   (iii) a<b ⟹ a+c < b+c
+   (iv)  ac<bc and c>0 ⟹ a<b
+   (v)   ac<bc and c<0 ⟹ a>b
+   (vi)  Either a>b or a=b or a<b
+
+6. Find two rational numbers between:
+   (i) 1/3 and 1/4    (ii) 3 and 4    (iii) 3/5 and 4/5
+
+================================================================
+1.2  RADICAL EXPRESSIONS
+================================================================
+
+If n is a positive integer greater than 1 and a is a real number,
+then any real number x such that x = ⁿ√a is called nth root of a.
+
+  √  = radical sign
+  n  = index of radical
+  a  = radicand (real number under radical sign)
+
+Examples of radical form: ⁵√5, ⁵√7
+
+Exponential form: x = ⁿ√a  is written as  x = a^(1/n)
+
+----------------------------------------------------------------
+1.2.1  LAWS OF RADICALS AND INDICES
+----------------------------------------------------------------
+
+LAWS OF RADICALS:
+  (i)   ⁿ√(ab) = ⁿ√a · ⁿ√b
+  (ii)  ⁿ√(a/b) = ⁿ√a / ⁿ√b
+  (iii) ⁿ√(a^m) = (ⁿ√a)^m
+  (iv)  (ⁿ√a)^n = (a^(1/n))^n = a
+
+LAWS OF INDICES:
+  (i)   a^m · a^n = a^(m+n)
+  (ii)  (a^m)^n  = a^(mn)
+  (iii) (ab)^n   = a^n · b^n
+  (iv)  (a/b)^n  = a^n / b^n
+  (v)   a^m / a^n = a^(m-n)
+  (vi)  a^0      = 1
+
+EXAMPLE 7: Simplify:
+
+(i) ⁴√(16x⁴y⁸)
+  = (16x⁴y⁸)^(1/4)          [since ⁿ√a = a^(1/n)]
+  = (16)^(1/4) · (x⁴)^(1/4) · (y⁸)^(1/4)    [(ab)^m = a^m·b^m]
+  = 2^(4·1/4) · x^(4·1/4) · y^(8·1/4)        [(a^m)^n = a^mn]
+  = 2·x·y²
+  = 2xy²
+
+(ii) ³√(27x⁶y⁹z³)
+  = (27x⁶y⁹z³)^(1/3)
+  = (3³)^(1/3) · (x⁶)^(1/3) · (y⁹)^(1/3) · (z³)^(1/3)
+  = 3^(3×1/3) · x^(6×1/3) · y^(9×1/3) · z^(3×1/3)
+  = 3x²y³z
+
+(iii) (64)^(-4/3)
+  = 1 / (64)^(4/3)
+  = 1 / (4³)^(4/3)
+  = 1 / 4^(3×4/3)
+  = 1 / 4⁴
+  = 1/256
+
+----------------------------------------------------------------
+1.2.2  SURDS AND THEIR APPLICATIONS
+----------------------------------------------------------------
+
+An irrational radical with rational radicand is called a SURD.
+  - ⁿ√a is a surd if the nth root of rational number a is irrational.
+  - √5 is a surd (√5 is not a whole number)
+  - √9 is NOT a surd (√9 = 3, a whole number)
+  - √7, √2, ³√11 are surds
+  - √π, √e are NOT surds
+
+[Remember!] Every surd is an irrational number but every
+            irrational number is not a surd. e.g., √π is not a surd.
+
+TYPES OF SURDS:
+  (i)  Monomial surd: contains a single term.
+         e.g., √5, √7
+
+  (ii) Binomial surd: sum of two monomial surds.
+         e.g., √3+√5, √2+√7
+
+  (iii) Conjugate surds: √a+√b and √a-√b are conjugates of each other.
+
+[Remember!] The product of two conjugate surds is a rational number.
+
+----------------------------------------------------------------
+1.2.3  RATIONALIZATION OF DENOMINATOR
+----------------------------------------------------------------
+
+To rationalize a denominator of the form (a + b√x) or (a - b√x),
+multiply both numerator and denominator by the conjugate factor.
+
+EXAMPLE 8: Rationalize the denominator:
+
+(i) 3 / (√5 + √2)
+  = [3 / (√5+√2)] × [(√5-√2)/(√5-√2)]
+  = 3(√5-√2) / [(√5)²-(√2)²]
+  = 3(√5-√2) / (5-2)
+  = 3(√5-√2) / 3
+  = √5 - √2
+
+(ii) 3 / (√5 - √3)
+  = [3 / (√5-√3)] × [(√5+√3)/(√5+√3)]
+  = 3(√5+√3) / [(√5)²-(√3)²]
+  = 3(√5+√3) / (5-3)
+  = 3(√5+√3) / 2
+
+----------------------------------------------------------------
+EXERCISE 1.2
+----------------------------------------------------------------
+
+1. Rationalize the denominator:
+   (i)   13 / (4+√3)
+   (ii)  (√2+√5) / √3
+   (iii) (√2-1) / √5
+   (iv)  (6-4√2) / (6+4√2)
+   (v)   (√3-√2) / (√3+√2)
+   (vi)  4√3 / (√7+√5)
+
+2. Simplify:
+   (i)   (81/16)^(-3/4)
+   (ii)  (3/4)^(-2) ÷ (4/9)³ × 16/27
+   (iii) (0.027)^(-1/3)
+   (iv)  ⁷√(x¹⁴ × y²¹ × z³⁵ / y¹⁴z⁷)
+   (v)   [5·(25)^(n+1) - 25·(5)^(2n)] / [5·(5)^(2n+3) - (25)^(n+1)]
+   (vi)  [(16)^(x+1) + 20(4^(2x))] / [2^(x-3) × 8^(x+2)]
+   (vii) (64)^(-2/3) ÷ (9)^(-3/2)
+   (viii)(3^n × 9^(n+1)) / (3^(n-1) × 9^(n-1))
+   (ix)  (5^(n+3) - 6·5^(n+1)) / (9·5^n - 4·5^n)
+
+3. If x = 3 + √8, find the value of:
+   (i)   x + 1/x
+   (ii)  x - 1/x
+   (iii) x² + 1/x²
+   (iv)  x² - 1/x²
+   (v)   x⁴ + 1/x⁴
+   (vi)  (x - 1/x)²
+
+4. Find rational numbers p and q such that:
+   (8 - 3√2) / (4 + 3√2) = p + q√2
+
+5. Simplify:
+   (i)   [(25)^(3/2) × (243)^(3/5)] / [(16)^(5/4) × (8)^(4/3)]
+   (ii)  [54 × ³√(27)^(2x)] / [9^(x+1) + 216(3^(2x-1))]
+   (iii) √[(216)^(2/3) × (25)^(1/2) / (0.04)^(-3/2)]
+   (iv)  (a^(1/3) + b^(2/3)) × (a^(2/3) - a^(1/3)·b^(2/3) + b^(4/3))
+
+================================================================
+1.3  APPLICATION OF REAL NUMBERS IN DAILY LIFE
+================================================================
+
+Real numbers are used in various fields including:
+  - Science and engineering (physics, mechanical systems,
+    electrical circuits)
+  - Medicine and Health
+  - Environmental science (climate modelling, pollution monitoring)
+  - Computer science (algorithm design, data compression,
+    graphic rendering)
+  - Navigation and transportation (GPS, flight planning)
+  - Surveying and architecture
+  - Statistics
+
+EXAMPLE 9: Sum of two real numbers is 8, difference is 2. Find them.
+
+Solution:
+  Let a and b be the two real numbers.
+    a + b = 8   ...(i)
+    a - b = 2   ...(ii)
+  Add (i) and (ii):
+    2a = 10  ⟹  a = 5
+  Put in (ii): 5 - b = 2  ⟹  b = 3
+  Answer: 5 and 3
+
+----------------------------------------------------------------
+1.3.1  TEMPERATURE CONVERSIONS
+----------------------------------------------------------------
+
+Conversion formulae:
+  (i)  K  = °C + 273
+  (ii) °C = (5/9)(F - 32)
+  (iii)°F = (9°C/5) + 32
+
+  Where K = Kelvin, °C = Celsius, °F = Fahrenheit
+
+  Temperature Reference Table:
+  ┌──────────────────────────┬────────┬─────────┬────────────┐
+  │ Parameter                │ Kelvin │ Celsius │ Fahrenheit │
+  ├──────────────────────────┼────────┼─────────┼────────────┤
+  │ Boiling point of H₂O    │ 373.15 │  100    │    212     │
+  │ Body temperature         │ 310.15 │   37    │   96.6     │
+  │ Freezing point of H₂O   │ 273.15 │    0    │     32     │
+  │ Absolute zero            │   0    │ -273.15 │  -459.67   │
+  └──────────────────────────┴────────┴─────────┴────────────┘
+
+EXAMPLE 10: Normal body temperature is 98.6°F. Convert to °C and K.
+
+Solution:
+  °F = 98.6
+
+  Convert to Celsius:
+    °C = (5/9)(F - 32)
+       = (5/9)(98.6 - 32)
+       = (5/9)(66.6)
+       = (0.55)(66.6)
+       = 37°C
+
+  Convert to Kelvin:
+    K = C + 273
+      = 37 + 273
+      = 310 Kelvin
+
+----------------------------------------------------------------
+1.3.2  PROFIT AND LOSS
+----------------------------------------------------------------
+
+Formulae:
+  Profit = Selling Price - Cost Price
+    P = SP - CP
+    Profit% = (Profit/CP × 100)%
+
+  Loss = Cost Price - Selling Price
+    Loss = CP - SP
+    Loss% = (Loss/CP × 100)%
+
+EXAMPLE 11: Bicycle bought for Rs.6590, sold for Rs.6850.
+            Find profit percentage.
+
+Solution:
+  CP = Rs.6590,  SP = Rs.6850
+  Profit = SP - CP = 6850 - 6590 = Rs.260
+  Profit% = (260/6590 × 100)% = 3.94% ≈ 4%
+
+EXAMPLE 12: Book bought for Rs.850, sold for Rs.720.
+            Find loss percentage.
+
+Solution:
+  CP = Rs.850,  SP = Rs.720
+  Loss = CP - SP = 850 - 720 = Rs.130
+  Loss% = (130/850 × 100)% = 15.29%
+
+EXAMPLE 13: Profit of Rs.4,50,000 shared in ratio 4:7:14.
+            Find each person's share.
+
+Solution:
+  Sum of ratios = 4 + 7 + 14 = 25
+  Saleem  = (4/25) × 4,50,000 = Rs.72,000
+  Nadeem  = (7/25) × 4,50,000 = Rs.1,26,000
+  Tanveer = (14/25) × 4,50,000 = Rs.2,52,000
+
+EXAMPLE 14: Simple profit on Rs.6400 for 12 years is Rs.3840.
+            Find rate of profit.
+
+Solution:
+  Rate = (Amount of Profit × 100) / (Time × Principal)
+       = (3840 × 100) / (12 × 6400)
+       = 5%
+
+----------------------------------------------------------------
+EXERCISE 1.3
+----------------------------------------------------------------
+
+1. Sum of three consecutive integers is 42. Find the integers.
+
+2. Right-angled triangle ABC where AC = (√3+√5) cm and
+   area = (1+√15) cm². Find AB in the form (a√3 + b√5) cm.
+
+3. Rectangle has sides (2+√18) m and (5 - 4/√2) m.
+   Express area in the form a + b√2.
+
+4. Find two numbers whose sum is 68 and difference is 22.
+
+5. Temperature in Lahore reached 48°C. Convert to Fahrenheit
+   using °F = (9/5)°C + 32.
+
+6. Sum of ages of father and son is 72. Six years ago, father's
+   age was 2 times son's age. Find son's age six years ago.
+
+7. Mirha bought a toy for Rs.1500 and sold for Rs.1520.
+   Find profit percentage.
+
+8. Annual income of Tayyab is Rs.9,60,000, exempted amount is
+   Rs.1,30,000. Find tax at rate of 0.75%.
+
+9. Find compound markup on Rs.3,75,000 for one year at 14%
+   compounded annually.
+
+================================================================
+REVIEW EXERCISE 1
+================================================================
+
+1. Encircle the correct option:
+
+   (i)   √7 is:
+         (a) integer  (b) rational  (c) irrational  (d) natural
+
+   (ii)  π and e are:
+         (a) natural  (b) integers  (c) rational  (d) irrational
+
+   (iii) If n is not a perfect square, then √n is:
+         (a) rational  (b) natural  (c) integer  (d) irrational
+
+   (iv)  √3 + √5 is:
+         (a) whole  (b) integer  (c) rational  (d) irrational
+
+   (v)   For all x ∈ R, x=x is called:
+         (a) reflexive  (b) transitive  (c) symmetric  (d) trichotomy
+
+   (vi)  a>b and b>c ⟹ a>c is called _____ property:
+         (a) trichotomy  (b) transitive  (c) additive  (d) multiplicative
+
+   (vii) 2^x × 8^x = 64, then x =
+         (a) 3/2  (b) 3/4  (c) 5/6  (d) 2/3
+
+   (viii)a=b and b=a is called _____ property:
+         (a) reflexive  (b) symmetric  (c) transitive  (d) additive
+
+   (ix)  √75 + √27 =
+         (a) √102  (b) 9√3  (c) 5√3  (d) 8√3
+
+   (x)   Product of (3+√5)(3-√5) is:
+         (a) prime  (b) odd  (c) irrational  (d) rational
+
+2. If a=3/2, b=5/3, c=7/5, verify:
+   (i)  a(b+c) = ab+ac
+   (ii) (a+b)c = ac+bc
+
+3. If a=4/3, b=5/2, c=7/4, verify associative property
+   w.r.t addition and multiplication.
+
+4. Is 0 a rational number? Explain.
+
+5. State the trichotomy property of real numbers.
+
+6. Find two rational numbers between 4 and 5.
+
+7. Simplify:
+   (i)   ⁵√(x¹⁵y³⁵ / z²⁰)
+   (ii)  ³√(27)^(2x)
+   (iii) 6(3)^(n+2) / (3^(n+1) - 3^n)
+
+8. Sum of three consecutive odd integers is 51. Find them.
+
+9. Abdullah has 96 balls in two buckets. One bucket has 28 more
+   balls than the other. How many balls in each bucket?
+
+10. Salma invested Rs.3,50,000 at simple profit 7¼% per annum.
+    After 2 years, rate increased to 8% per annum.
+    Find amount at end of 7 years.
+
+================================================================
+END OF UNIT 1: REAL NUMBERS
+================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from copilot gemini pro
+
+================================================================
+MATHEMATICS - CLASS 9
+PUNJAB CURRICULUM AND TEXTBOOK BOARD, LAHORE
+================================================================
+
+================================================================
+UNIT 2: LOGARITHM
+================================================================
+
+STUDENTS' LEARNING OUTCOMES
+----------------------------------------------------------------
+At the end of the unit, the students will be able to:
+
+  - Express a number in scientific notation and vice versa.
+  - Describe logarithm of a number
+  - Differentiate between common and natural logarithm
+
+================================================================
+INTRODUCTION
+================================================================
+
+Logarithms are powerful mathematical tools used to simplify complex
+calculations, particularly those involving exponential growth or
+decay. They are widely applicable across various fields, including
+banking, science, engineering, and information technology. In
+chemistry, the pH scale, which measures the acidity or alkalinity
+of a solution, is based on logarithms. They help in transforming
+non-linear data into linear form for analysis, solving exponential
+equations and managing calculations involving very large or small
+numbers efficiently.
+
+================================================================
+2.1  SCIENTIFIC NOTATION
+================================================================
+
+A method used to express very large or very small numbers in a more
+manageable form is known as Scientific notation. It is commonly
+used in science, engineering and mathematics to simplify complex
+calculations.
+
+A number in scientific notation is written as:
+  a x 10ⁿ, where 1 <= a < 10 and n ∈ Z
+
+Here "a" is called the coefficient or base number.
+
+----------------------------------------------------------------
+2.1.1  CONVERSION OF NUMBERS FROM ORDINARY NOTATION TO
+       SCIENTIFIC NOTATION
+----------------------------------------------------------------
+
+[Remember!]
+  If the number is greater than 1 then n is positive and if the
+  number is less than 1 then n is negative.
+
+EXAMPLE 1: Convert 78,000,000 to scientific notation.
+
+Solution:
+  Step 1: Move the decimal to get a number between 1 and 10: 7.8
+  Step 2: Count the number of places you moved the decimal: 7 places
+  Step 3: Write in scientific notation:
+          78,000,000 = 7.8 x 10⁷
+  Since we moved the decimal to the left, the exponent is positive.
+
+EXAMPLE 2: Convert 0.0000000315 to scientific notation.
+
+Solution:
+  Step 1: Move the decimal to get a number between 1 and 10: 3.15
+  Step 2: Count the number of places you moved the decimal: 8 places
+  Step 3: Write in scientific notation:
+          0.0000000315 = 3.15 x 10⁻⁸
+  Since we moved the decimal to the right, the exponent is negative.
+
+[Try Yourself!]
+  Convert the following into scientific notation:
+  (i) 29,000,000
+  (ii) 0.000006
+
+----------------------------------------------------------------
+2.1.2  CONVERSION OF NUMBERS FROM SCIENTIFIC NOTATION TO
+       ORDINARY NOTATION
+----------------------------------------------------------------
+
+EXAMPLE 3: Convert 3.47 x 10⁶ to ordinary notation.
+
+Solution:
+  Step 1: Identify the parts:
+          Coefficient: 3.47
+          Exponent: 10⁶
+
+  [Remember!]
+    If exponent is positive then the decimal will move to the right.
+    If exponent is negative then the decimal will move to the left.
+
+  Step 2: Since the exponent is positive 6, move the decimal point
+          6 places to the right.
+          3.47 x 10⁶ = 3,470,000
+
+EXAMPLE 4: Convert 6.23 x 10⁻⁴ to ordinary notation.
+
+Solution:
+  Step 1: Identify the parts:
+          Coefficient: 6.23
+          Exponent: 10⁻⁴
+
+  Step 2: Since the exponent is negative 4, move the decimal point
+          4 places to the left.
+          6.23 x 10⁻⁴ = 0.000623
+
+[Try Yourself!]
+  Convert the following into ordinary notation:
+  (i) 5.63 x 10³
+  (ii) 6.6 x 10⁻⁵
+
+----------------------------------------------------------------
+EXERCISE 2.1
+----------------------------------------------------------------
+
+1. Express the following numbers in scientific notation:
+   (i) 2000000
+   (ii) 48900
+   (iii) 0.0042
+   (iv) 0.0000009
+   (v) 73 x 10³
+   (vi) 0.65 x 10²
+
+2. Express the following numbers in ordinary notation:
+   (i) 8.04 x 10²
+   (ii) 3 x 10⁵
+   (iii) 1.5 x 10⁻²
+   (iv) 1.77 x 10⁷
+   (v) 5.5 x 10⁻⁶
+   (vi) 4 x 10⁻⁵
+
+3. The speed of light is approximately 3 x 10⁸ metres per second.
+   Express it in standard form.
+4. The circumference of the Earth at the equator is about 40075000
+   metres. Express this number in scientific notation.
+5. The diameter of Mars is 6.779 x 10³ km. Express this number in
+   standard form.
+6. The diameter of Earth is about 1.2756 x 10⁴ km. Express this
+   number in standard form.
+
+================================================================
+2.2  LOGARITHM
+================================================================
+
+A logarithm is based on two Greek words: logos and arithmos which
+means ratio or proportion. John Napier, a Scottish mathematician,
+introduced the word logarithm. It is a way to simplify complex
+calculations, especially those involving multiplication and
+division of large numbers. Now a days logarithm remain fundamental
+in mathematics, with applications in science, finance and technology.
+
+----------------------------------------------------------------
+2.2.1  LOGARITHM OF A REAL NUMBER
+----------------------------------------------------------------
+
+In simple words, the logarithm of a real number tells us how many
+times one number must be multiplied by itself to get another number.
+
+The general form of a logarithm is:
+  log_b(x) = y
+
+Where:
+  - b is the base,
+  - x is the result or the number whose logarithm is being taken,
+  - y is the exponent or the logarithm of x to the base b.
+
+This means that:
+  bʸ = x
+
+  bʸ = x      (Exponential form)
+  log_b(x) = y   (Logarithmic form)
+
+In words, "the logarithm of x to the base b is y" means that when
+b is raised to the power y, it equals x.
+
+The relationship between logarithmic form and exponential form is:
+  log_b(x) = y  <=>  bʸ = x   (where b > 0, x > 0 and b ≠ 1)
+
+EXAMPLE 5: Convert log_2(8) = 3 to exponential form.
+
+Solution:
+  log_2(8) = 3
+  Its exponential form is: 2³ = 8
+
+EXAMPLE 6: Convert log_10(100) = 2 to exponential form.
+
+Solution:
+  log_10(100) = 2
+  Its exponential form is: 10² = 100
+
+EXAMPLE 7: Find the value of x in each case:
+  (i) log_5(25) = x
+  (ii) log_2(x) = 6
+
+Solution:
+  (i) log_5(25) = x
+      Its exponential form is:
+      5ˣ = 25
+      ⟹ 5ˣ = 5²
+      ⟹ x = 2
+
+  (ii) log_2(x) = 6
+       Its exponential form is:
+       2⁶ = x
+       ⟹ x = 64
+
+EXAMPLE 8: Convert the following in logarithmic form:
+  (i) 3⁴ = 81
+  (ii) 7⁰ = 1
+
+Solution:
+  (i) 3⁴ = 81
+      Its logarithmic form is:
+      log_3(81) = 4
+
+  (ii) 7⁰ = 1
+       Its logarithmic form is:
+       log_7(1) = 0
+
+----------------------------------------------------------------
+EXERCISE 2.2
+----------------------------------------------------------------
+
+1. Express each of the following in logarithmic form:
+   (i) 10³ = 1000
+   (ii) 2⁸ = 256
+   (iii) 3⁻³ = 1/27
+   (iv) 20² = 400
+   (v) 16⁻¹/⁴ = 1/2
+   (vi) 11² = 121
+   (vii) p = qʳ
+   (viii) (32)⁻¹/⁵ = 1/2
+
+2. Express each of the following in exponential form:
+   (i) log_5(125) = 3
+   (ii) log_2(16) = 4
+   (iii) log_23(1) = 0
+   (iv) log_5(5) = 1
+   (v) log_2(1/8) = -3
+   (vi) 1/2 = log_9(3)
+   (vii) 5 = log_10(100000)
+   (viii) log_4(1/16) = -2
+
+3. Find the value of x in each of the following:
+   (i) log_x(64) = 3
+   (ii) log_5(1) = x
+   (iii) log_x(8) = 1
+   (iv) log_10(x) = -3
+   (v) log_4(x) = 3/2
+   (vi) log_2(1024) = x
+
+================================================================
+2.3  COMMON LOGARITHM
+================================================================
+
+The common logarithm is the logarithm with a base of 10. It is
+written as log_10 or simply as log (when no base is mentioned, it
+is usually assumed to be base 10).
+
+For example:
+  10¹ = 10     <=>  log(10) = 1
+  10² = 100    <=>  log(100) = 2
+  10³ = 1000   <=>  log(1000) = 3   and so on.
+
+  10⁻¹ = 1/10 = 0.1       <=>  log(0.1) = -1
+  10⁻² = 1/100 = 0.01     <=>  log(0.01) = -2
+  10⁻³ = 1/1000 = 0.001   <=>  log(0.001) = -3   and so on.
+
+History:
+  English mathematician Henry Briggs extended Napier's work and
+  developed the common logarithm. He also introduced logarithmic table.
+
+----------------------------------------------------------------
+2.3.1  CHARACTERISTIC AND MANTISSA OF LOGARITHMS
+----------------------------------------------------------------
+
+The logarithm of a number consists of two parts: the characteristic
+and the mantissa. Here is a simple way to understand them:
+
+(a) Characteristic
+  The characteristic is the integral part of the logarithm. It
+  tells us how big or small the number is.
+
+  Rules for Finding the Characteristic:
+  [Remember!] When the characteristic is negative, we write it
+  with a bar (e.g., -2 is written as 2 with a bar over it).
+
+  (i) For a number greater than 1:
+      Characteristic = number of digits to the left of the decimal
+                       point - 1
+      For example, in log 567 the characteristic = 3 - 1 = 2
+
+  (ii) For a number less than 1:
+       Characteristic = - (number of zeros between the decimal
+                            point and the first non-zero digit + 1)
+       For example, in log 0.0123 the characteristic = -(1 + 1) = -2
+
+EXAMPLE 9: Find characteristic of the followings:
+  (i) log 725
+  (ii) log 9.87
+  (iii) log 0.00045
+  (iv) log 0.54
+
+Solution:
+  (i) log 725
+      Characteristic = 3 - 1 = 2
+  (ii) log 9.87
+       Characteristic = 1 - 1 = 0
+  (iii) log 0.00045
+        Characteristic = - (3 + 1) = -4
+  (iv) log 0.54
+       Characteristic = - (0 + 1) = -1
+
+  Characteristic of the logarithm of numbers can also be found by
+  expressing them in scientific notation. For example:
+  ┌──────────┬──────────────────────┬───────────────────────────────┐
+  │ Number   │ Scientific Notation  │ Characteristic of the logarithm│
+  ├──────────┼──────────────────────┼  ──────────────────────────────┤
+  │ 725      │ 7.25 x 10²           │ 2                             │
+  │ 9.87     │ 9.87 x 10⁰           │ 0                             │
+  │ 0.00045  │ 4.5 x 10⁻⁴           │ -4                            │
+  │ 0.54     │ 5.4 x 10⁻¹           │ -1                            │
+  └──────────┴──────────────────────┴───────────────────────────────┘
+
+(b) Mantissa
+  The mantissa is the decimal part of the logarithm. It represents
+  the "fractional" component and is always positive.
+  For example, in log 5000 = 3.698 the mantissa is 0.698
+
+----------------------------------------------------------------
+2.3.2  FINDING COMMON LOGARITHM OF A NUMBER
+----------------------------------------------------------------
+
+Suppose we want to find the common logarithm of 13.45.
+The step-by-step procedure is given below:
+
+  Step 1: Separate the integral and decimal parts.
+          Integral part = 13, Decimal part = 45
+
+  [Remember!]
+    log(Number) = Characteristic + Mantissa
+
+  Step 2: Find the characteristic of the number
+          Characteristic = number of digits left of decimal - 1
+                         = 2 - 1 = 1
+
+  Step 3: In common logarithm table, check the intersection of row
+          number 13 and column number 4 which is 1271.
+
+  Step 4: Find mean difference: Check the intersection of row
+          number 13 and column number 5 in the mean difference
+          which is 16.
+
+  Step 5: Add the numbers found in step 3 and step 4.
+          1271 + 16 = 1287 so the mantissa is 0.1287.
+
+  Step 6: Finally, combine the characteristic and mantissa.
+          We get 1.1287.
+          So, the value of log(13.45) is 1.1287.
+
+EXAMPLE 10: Find logarithm of the following numbers:
+  (i) log 345
+  (ii) log 5.678
+  (iii) log 0.0036
+  (iv) log 0.0478
+
+Solution:
+  (i) log 345
+      Characteristic = 3 - 1 = 2
+      Mantissa = 0.5378 (Look for 34 in row, 5 in column)
+      So, log(345) = 2 + 0.5378 = 2.5378
+
+  (ii) log 5.678
+       Characteristic = 1 - 1 = 0
+       Mantissa = 0.7542 (7536 + 6 = 7542)
+       So, log(5.678) = 0 + 0.7542 = 0.7542
+
+  (iii) log 0.0036
+        Characteristic = - (2 + 1) = -3
+        Mantissa = 0.5563 (Look for 36 in row, 0 in column)
+        So, log(0.0036) = -3 + 0.5563 = -2.4437 (Bar 3.5563)
+
+  (iv) log 0.0478
+       Characteristic = - (1 + 1) = -2
+       Mantissa = 0.6794 (Look for 47 in row, 8 in column)
+       So, log(0.0478) = -2 + 0.6794 = -1.3206 (Bar 2.6794)
+
+  [Do you know?]
+    log(0) = undefined
+    log(1) = 0
+    log_a(a) = 1
+
+----------------------------------------------------------------
+2.3.3  CONCEPT OF ANTILOGARITHM
+----------------------------------------------------------------
+
+An antilogarithm is the inverse operation of a logarithm. An
+antilogarithm helps to find a number whose logarithmic value
+is given.
+
+In simple terms:
+  If log_b(x) = y <=> bʸ = x then the process of finding x is
+  called antilogarithm of y.
+
+Finding Antilogarithm of a Number using Tables
+Let us find the antilogarithm of 2.1245.
+
+  Step 1: Separate the characteristic and mantissa parts:
+          Characteristic = 2
+          Mantissa = 0.1245
+
+  [Remember!]
+    The word antilogarithm is another word for the number or
+    result. For example, in 4³ = 64, the result 64 is the
+    antilogarithm.
+
+  Step 2: Find corresponding value of mantissa from antilogarithm
+          table (row .12, column 4) which is 1330.
+
+  Step 3: Find the mean difference (row .12, column 5) which is 2.
+
+  Step 4: Add the numbers: 1330 + 2 = 1332.
+
+  Step 5: Insert the decimal point:
+          Since characteristic is 2, the decimal point will be after
+          3 digits from the left reference position.
+          We get 133.2.
+          Thus, antilog(2.1245) = 133.2.
+
+  [Remember!]
+    The place between the first non-zero digit from left and its
+    next digit is called reference position.
+
+EXAMPLE 11: Find the value of x in the followings:
+  (i) log x = 0.2568
+  (ii) log x = -1.4567
+  (iii) log x = -2.1234
+
+Solution:
+  (i) log x = 0.2568
+      Characteristic = 0, Mantissa = 0.2568
+      Table value of 0.2568 = 1803 + 3 = 1806
+      So, x = antilog(0.2568) = 1.806 (Decimal at reference position)
+
+  (ii) log x = -1.4567
+       Since mantissa is negative, make it positive by adding and
+       subtracting 2:
+       log x = -2 + 2 - 1.4567 = -2 + 0.5433 = (Bar 2).5433
+       Characteristic = -2, Mantissa = 0.5433
+       Table value of 0.5433 = 3491 + 2 = 3493
+       So, x = antilog(Bar 2.5433) = 0.03493
+
+  (iii) log x = -2.1234
+        Since mantissa is negative, make it positive by adding and
+        subtracting 3:
+        log x = -3 + 3 - 2.1234 = -3 + 0.8766 = (Bar 3).8766
+        Characteristic = -3, Mantissa = 0.8766
+        Table value of 0.8766 = 7516 + 10 = 7526
+        So, x = antilog(Bar 3.8766) = 0.007526
+
+----------------------------------------------------------------
+2.3.4  NATURAL LOGARITHM
+----------------------------------------------------------------
+
+The natural logarithm is the logarithm with base e, where e is a
+mathematical constant approximately equal to 2.71828. It is
+denoted as ln.
+
+History:
+  Swiss mathematician and physicist Leonhard Euler introduced 'e'
+  for the base of natural logarithm.
+
+The natural logarithm is commonly used in mathematics, particularly
+in calculus, to describe exponential growth, decay and many other
+natural phenomena.
+
+For example, ln(e²) = 2.
+
+Difference between Common and Natural Logarithms:
+  ┌─────────────────────────────────┬──────────────────────────────────┐
+  │ Common Logarithm                │ Natural Logarithm                │
+  ├─────────────────────────────────┼──────────────────────────────────┤
+  │ i. Base is 10.                  │ i. Base is e.                    │
+  │ ii. Written as log_10(x) or     │ ii. Written as ln(x).            │
+  │     log(x).                     │                                  │
+  │ iii. Widely used in everyday    │ iii. Used in higher level        │
+  │      calculations (science,     │      mathematics (calculus,      │
+  │      engineering).              │      growth/decay).              │
+  └─────────────────────────────────┴──────────────────────────────────┘
+
+----------------------------------------------------------------
+EXERCISE 2.3
+----------------------------------------------------------------
+
+1. Find characteristic of the following numbers:
+   (i) 5287    (ii) 59.28    (iii) 0.0567
+   (iv) 234.7  (v) 0.000049  (vi) 145000
+
+2. Find logarithm of the following numbers:
+   (i) 43      (ii) 579      (iii) 1.982
+   (iv) 0.0876 (v) 0.047     (vi) 0.000354
+
+3. If log 3.177 = 0.5019, then find:
+   (i) log 3177    (ii) log 31.77    (iii) log 0.03177
+
+4. Find the value of x.
+   (i) log x = 0.0065      (ii) log x = 1.192
+   (iii) log x = -3.434    (iv) log x = -1.5726
+   (v) log x = 4.3561      (vi) log x = -2.0184
+
+================================================================
+2.4  LAWS OF LOGARITHM
+================================================================
+
+Laws of logarithm are also known as rules or properties of
+logarithm. These laws help to simplify logarithmic expressions and
+solve logarithmic equations.
+
+1. Product Law:
+   log_b(xy) = log_b(x) + log_b(y)
+   The logarithm of the product is the sum of the logarithms.
+
+2. Quotient Law:
+   log_b(x/y) = log_b(x) - log_b(y)
+   The logarithm of a quotient is the difference between the
+   logarithms.
+
+3. Power Law:
+   log_b(xⁿ) = n * log_b(x)
+   The logarithm of a number raised to a power is the product of
+   the power and the logarithm of the base number.
+
+4. Change of Base Law:
+   log_b(x) = log_a(x) / log_a(b)
+   This law allows to change the base of a logarithm from "b" to
+   any other base "a".
+
+----------------------------------------------------------------
+2.4.1  APPLICATIONS OF LOGARITHM
+----------------------------------------------------------------
+
+Logarithms have a wide range of applications in many fields.
+
+EXAMPLE 12: Expand the following using laws of logarithms:
+  (i) log_3(20)
+  (ii) log_2(9)⁵
+  (iii) log_32(27)
+
+Solution:
+  (i) log_3(20)
+      = log_3(4 * 5)
+      = log_3(2² * 5)
+      = log_3(2²) + log_3(5)
+      = 2*log_3(2) + log_3(5)
+
+  (ii) log_2(9)⁵
+       = log_2(3²)⁵
+       = log_2(3¹⁰)
+       = 10*log_2(3)
+
+  (iii) log_32(27)
+        = log(27) / log(32)
+        = log(3³) / log(2⁵)
+        = (3*log(3)) / (5*log(2))
+        = 3/5 * log_2(3)
+
+EXAMPLE 13: Expand the following using laws of logarithms:
+  (i) log_2((x-y)/z)³
+  (ii) log_5((xy/z)⁸)
+
+Solution:
+  (i) log_2((x-y)/z)³
+      = 3 * log_2((x-y)/z)
+      = 3 * [log_2(x-y) - log_2(z)]
+
+  (ii) log_5((xy/z)⁸)
+       = 8 * log_5(xy/z)
+       = 8 * [log_5(xy) - log_5(z)]
+       = 8 * [log_5(x) + log_5(y) - log_5(z)]
+
+EXAMPLE 14: Write the following as a single logarithm:
+  (i) 2 log_3(10) - log_3(4)
+  (ii) 6 log_3(x) + 2 log_3(11)
+
+Solution:
+  (i) 2 log_3(10) - log_3(4)
+      = log_3(10²) - log_3(4)
+      = log_3(100) - log_3(4)
+      = log_3(100/4)
+      = log_3(25)
+
+  (ii) 6 log_3(x) + 2 log_3(11)
+       = log_3(x⁶) + log_3(11²)
+       = log_3(x⁶) + log_3(121)
+       = log_3(121x⁶)
+
+EXAMPLE 15: The decibel scale measures sound intensity using
+  L = 40 log_10(I / I_o). If a sound has an intensity (I) of
+  10⁶ times the reference intensity (I_o). What is the sound
+  level in decibels?
+
+Solution:
+  L = 40 log_10(I / I_o)
+  Put I = 10⁶ * I_o, we get:
+  L = 40 log_10((10⁶ * I_o) / I_o)
+  L = 40 log_10(10⁶)
+  L = 40 * 6 * log_10(10)
+  L = 240 decibels     (since log_10(10) = 1)
+
+  [Do you know?]
+    ln(0) = undefined
+    ln(1) = 0
+    ln(e) = 1
+
+----------------------------------------------------------------
+EXERCISE 2.4
+----------------------------------------------------------------
+
+1. Without using calculator, evaluate the following:
+   (i)   log_2(18) - log_2(9)
+   (ii)  log_2(64) + log_2(2)
+   (iii) 1/3 log_3(8) - log_3(18)
+   (iv)  2 log(2) + log(25)
+   (v)   1/3 log_4(64) + 2 log_5(25)
+   (vi)  log_3(12) + log_3(0.25)
+
+2. Write the following as a single logarithm:
+   (i)   1/2 log(25) + 2 log(3)
+   (ii)  log(9) - log(1/3)
+   (iii) log_5(b²) * log_a(5³)
+   (iv)  2 log_3(x) + log_3(y)
+   (v)   4 log_5(x) - log_5(y) + log_5(z)
+   (vi)  2 ln(a) + 3 ln(b) - 4 ln(c)
+
+3. Expand the following using laws of logarithms:
+   (i)   log(11/5)
+   (ii)  log_5(√(8a⁶))
+   (iii) ln((a²*b)/c)
+   (iv)  log((xy/z)¹/⁹)
+   (v)   ln(³√(16x³))
+   (vi)  log_2(((1-a)/b)⁵)
+
+4. Find the value of x in the following equations:
+   (i)   log(2) + log(x) = 1
+   (ii)  log_2(x) + log_2(8) = 5
+   (iii) (81)ˣ = (243)ˣ⁺²
+   (iv)  (1/27)ˣ⁻⁶ = 27
+   (v)   log(5x-10) = 2
+   (vi)  log_2(x+1) - log_2(x-4) = 2
+
+5. Find the values of the following with the help of logarithm table:
+   (i)   (3.68 x 4.21) / 5.234
+   (ii)  4.67 x 2.11 x 2.397
+   (iii) ((20.46)² x 2.4122) / 754.3
+   (iv)  (³√(9.364) x 21.64) / 3.21
+
+6. The formula to measure the magnitude of earthquakes is given
+   by M = log_10(A / A_o). If amplitude (A) is 10,000 and
+   reference amplitude (A_o) is 10. What is the magnitude?
+
+7. Abdullah invested Rs. 100,000 in a saving scheme and gains
+   interest at 5% per annum. Equation: y = 100,000(1.05)ᵗ.
+   Find after how many years the investment will be double.
+
+8. Huria is hiking. Temperature formula: T = T_i * 0.97ʰ/¹⁰⁰.
+   Calculate temperature at altitude (h) of 500 metres if
+   initial temperature T_i is 20°C.
+
+================================================================
+REVIEW EXERCISE 2
+================================================================
+
+1. Four options are given against each statement. Encircle the
+   correct option.
+
+   (i)   The standard form of 5.2 x 10⁶ is:
+         (a) 52,000  (b) 520,000  (c) 5,200,000  (d) 52,000,000
+
+   (ii)  Scientific notation of 0.00034 is:
+         (a) 3.4 x 10³  (b) 3.4 x 10⁻⁴  (c) 3.4 x 10⁴  (d) 3.4 x 10⁻³
+
+   (iii) The base of common logarithm is:
+         (a) 2  (b) 10  (c) 5  (d) e
+
+   (iv)  log_2(2³) = ____.
+         (a) 1  (b) 2  (c) 5  (d) 3
+
+   (v)   log(100) = ____.
+         (a) 2  (b) 3  (c) 10  (d) 1
+
+   (vi)  If log(2) = 0.3010, then log(200) is:
+         (a) 1.3010  (b) 0.6010  (c) 2.3010  (d) 2.6010
+
+   (vii) log(0) = ____.
+         (a) positive  (b) negative  (c) zero  (d) undefined
+
+   (viii)log(10,000) = ____.
+         (a) 2  (b) 3  (c) 4  (d) 5
+
+   (ix)  log(5) + log(3) = ____.
+         (a) log(0)  (b) log(2)  (c) log(5/3)  (d) log(15)
+
+   (x)   3⁴ = 81 in logarithmic form is:
+         (a) log_3(4) = 81  (b) log_4(3) = 81  (c) log_3(81) = 4  (d) log_4(81) = 3
+
+2. Express the following numbers in scientific notation:
+   (i) 0.000567    (ii) 734    (iii) 0.33 x 10³
+
+3. Express the following numbers in ordinary notation:
+   (i) 2.6 x 10³  (ii) 8.794 x 10⁻⁴  (iii) 6 x 10⁻⁶
+
+4. Express each of the following in logarithmic form:
+   (i) 3⁷ = 2187  (ii) aᵇ = c  (iii) (12)² = 144
+
+5. Express each of the following in exponential form:
+   (i) log_4(8) = x  (ii) log_9(729) = 3  (iii) log_4(1024) = 5
+
+6. Find value of x in the following:
+   (i) log_9(x) = 0.5  (ii) (1/9)³ˣ = 27  (iii) (1/32)²ˣ = 64
+
+7. Write the following as a single logarithm:
+   (i) 7 log(x) - 3 log(y²)
+   (ii) 3 log(4) - log(32)
+   (iii) 1/3 (log_5(8) + log_5(27)) - log_5(3)
+
+8. Expand the following using laws of logarithms:
+   (i) log(xyz⁶)
+   (ii) log_3(⁶√(m⁵ n³))
+   (iii) log(√(8x³))
+
+9. Find the values of the following with the help of logarithm table:
+   (i) ³√(68.24)
+   (ii) 319.8 x 3.543
+   (iii) (36.12 x 750.9) / (113.2 x 9.98)
+
+10. In the year 2016, the population of a city was 22 millions and
+    was growing at a rate of 2.5% per year. The function
+    p(t) = 22(1.025)ᵗ gives the population in millions, t years
+    after 2016. Use the model to determine in which year the
+    population will reach 35 millions. Round the answer to the
+    nearest year.
+
+================================================================
+END OF UNIT 2: LOGARITHM
+================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================
+UNIT 3: SETS AND FUNCTIONS
+================================================================
+
+STUDENTS' LEARNING OUTCOMES
+----------------------------------------------------------------
+At the end of the unit, the students will be able to:
+
+Recall:
+- Describe mathematics as the study of patterns, structure, and relationships.
+- Identify sets and apply operations on three sets (Subsets, overlapping sets and disjoint sets), using Venn diagrams.
+- Solve problems on classification and cataloguing by using Venn diagrams for scenarios involving two sets and three sets. Further application of sets.
+- Verify and apply properties/laws of union and intersection of three sets through analytical and Venn diagram methods.
+- Apply concepts from set theory to real-world problems (such as in demographic classification, categorizing products in shopping malls)
+- Explain product, binary relations and its domain and range.
+- Recognize that a relation can be represented by a table, ordered pair and graphs.
+- Recognize notation and determine the value of a function and its domain and range.
+- Identify types of functions (into, onto, one-to-one, injective, surjective and bijective) by using Venn diagrams.
+
+================================================================
+INTRODUCTION
+================================================================
+
+In this unit, we will revise some basic concepts of set theory and functions, beginning with mathematics as an essential study of patterns, structure, and relationships. Students will learn to identify different types of sets, the laws of union and intersection for two and three sets, and their representation using Venn diagrams. Additionally, they will apply set theory to real-world problems to enhance their understanding of demographic classification and product categorization. Classification develops an understanding of the relationship between various sets. Students will also explore binary relations and functions and their representation in various forms including tables, ordered pairs, and graphs.
+
+================================================================
+3.1 MATHEMATICS AS THE STUDY OF PATTERNS, STRUCTURES AND RELATIONSHIPS
+================================================================
+
+Mathematics is the science of patterns, structures, and relationships, comprising various branches that explore and analyze our world's logical and quantitative aspects. The strength of mathematics is based upon relations that enhance the understanding between the patterns and structure and their generalizations. A mathematical pattern is a predictable arrangement of numbers, shapes, or symbols that follows a specific rule or relationship. Virtually, patterns are the key to learning structural knowledge involving numerical and geometrical relationships. For example, look at the following numerical pattern of the numbers
+
+1st term   2nd term   3rd term   4th term   5th term
+   1    ,     4    ,     7    ,     10   ,     13
+       +3         +3         +3         +3
+
+In the above pattern, every term is obtained by adding 3 in the preceding term. This predictable rule or pattern extends continuously, making it a sequence where each term increases at a constant rate.
+
+Consider another example of a famous sequence 0, 1, 1, 2, 3, 5, 8, 13, 21, ..., known as the Fibonacci sequence. This sequence starts with two terms, 0 and 1. Each term of the sequence is obtained by adding the previous two terms. The formula for the Fibonacci sequence is Fn = Fn-1 + Fn-2, where F0 = 0 and F1 = 1 are the first and second terms respectively. This recursive pattern occurs more frequently in nature.
+
+The study of mathematical structure is essential for mathematical competence. A mathematical structure is typically a rule of a numerical, geometric and logical relationship that holds consistency within a specific domain. A structure is a collection of items or objects, along with particular relationships defined among them. Consider a triangle made up of smaller triangles, as illustrated in Figure (iii).
+
+Figure (i)
+Figure (ii)
+Figure (iii)
+
+The pattern of arranging smaller triangles to form a larger triangle is clear. We can easily recognize the implicit structure: the larger triangle can be seen as consisting of several rows, where each row contains a decreasing number of smaller triangles (e.g., 7 triangles in the first row, 5 in the second, 3 in the third, and 1 at the top).
+
+The repetition of the rows and the spatial relationships between the smaller triangles are critical structural features. The alignment of the smaller triangles creates a sense of congruence as each row is made up of triangles of the same size. At the same time, the arrangement illustrates parallel and perpendicular relationships when viewed in relation to the base of the larger triangle, as shown in Figure (iv). We can develop logical reasoning by understanding these patterns and structures and preparing them for more complex geometric concepts in various fields of mathematics. Similarly, we can establish a relationship between two sets when there is a correspondence between the numbers of these sets.
+
+Figure (iv)
+
+----------------------------------------------------------------
+3.1.1 BASIC DEFINITIONS
+----------------------------------------------------------------
+
+We are familiar with the notion of a set since the word is frequently used in everyday speech, for instance, water set, tea set and sofa set. It is a wonder that mathematicians have developed this ordinary word into a mathematical concept as much as it has become a language that is employed in most branches of modern mathematics. The study of sets helps in understanding the concept of relations, functions and especially in statistics we use sets to understand probability and other important ideas.
+
+A set is described as a well-defined collection of distinct objects, numbers or elements, so that we may be able to decide whether the object belongs to the collection or not.
+
+Capital letters A, B, C, X, Y, Z etc., are generally used as names of sets and small letters a, b, c, x, y, z etc., are used as members or elements of sets.
+
+Georg Cantor (1845-1918) was a German mathematician who significantly contributed to the development of set theory, a key area in mathematics. He showed how to compare two sets by matching their members one-to-one. Cantor defined different types of infinite sets and proved that there are more real numbers than natural numbers. His proof revealed that there are many sizes of infinity. Additionally, he introduced the concepts of cardinal and ordinal numbers, along with their arithmetic operations.
+
+There are three different ways of describing a set.
+
+(i) The Descriptive form: A set may be described in words. For instance, the set of all vowels of the English alphabet.
+(ii) The Tabular form: A set may be described by listing its elements within brackets. If A is the set mentioned above, then we may write:
+    A = {a, e, i, o, u}
+    The tabular form is also known as the Roster form.
+(iii) Set-builder method: It is sometimes more convenient or useful to employ the method of set-builder notation in specifying sets. This is done by using a symbol or letter for an arbitrary set member and stating the property common to all the members. Thus, the above set may be written as:
+    A = {x | x is a vowel of the English alphabets}
+    This is read as A is the set of all x such that x is a vowel of the English alphabets.
+
+The symbol used for membership of a set is ∈. Thus, a ∈ A means a is an element of A or a belongs to A. c ∉ A means c does not belong to A or c is not a member of A. Elements of a set can be anything: people, countries, rivers, objects of our thought. In algebra, we usually deal with sets of numbers. Such sets, along with their names are given below: -
+
+N = The set of natural numbers = {1, 2, 3, ...}
+W = The set of whole numbers = {0, 1, 2, ...}
+Z = The set of integers = {0, ±1, ±2, ...}
+O = The set of odd integers = {±1, ±3, ±5, ...}
+E = The set of even integers = {0, ±2, ±4, ...}
+P = The set of prime numbers = {2, 3, 5, 7, 11, 13, 17, ...}
+Q = The set of all rational numbers = {x | x = p/q where p, q ∈ Z and q ≠ 0}
+Q' = The set of all irrational numbers = {x | x ≠ p/q, where p, q ∈ Z and q ≠ 0}
+R = The set of all real numbers = Q ∪ Q'
+
+A set with only one element is called a singleton set. For example, {3}, {a}, and {Saturday} are singleton sets. The set with no elements (zero number of elements) is called an empty set, null set, or Void set.
+The empty set is denoted by the symbol ∅ or {}.
+
+[Remember!]
+The set {0} is a singleton set having zero as its only element, and not the empty set.
+
+Equal sets: Two sets A and B are equal if they have exactly the same elements or if every element of set A is an element of set B. If two sets A and B are equal, we write A=B. Thus, the sets {1, 2, 3} and {2, 1, 3} are equal.
+
+Equivalent sets: Two sets A and B are equivalent if they have the same number of elements. For example, if A = {a, b, c, d, e} and B = {1, 2, 3, 4, 5}, then A and B are equivalent sets. The symbol ~ is used to represent equivalent sets. Thus, we can write A ~ B.
+
+Subset: If every element of a set A is an element of set B, then A is a subset of B.
+Symbolically this is written as A ⊆ B (A is a subset of B). In such a case, we say B is a superset of A. Symbolically this is written as:
+B ⊇ A (B is a superset of A).
+
+[Remember!]
+The subset of a set can also be stated as follows:
+A ⊆ B iff ∀x ∈ A ⇒ x ∈ B
+
+Proper subset: If A is a subset of B and B contains at least one element that is not an element of A, then A is said to be a proper subset of B. In such a case, we write:
+A ⊂ B (A is a proper subset of B).
+
+Improper subset: If A is a subset of B and A = B, then we say that A is an improper subset of B. From this definition, it also follows that every set A is a subset of itself and is called an improper subset.
+
+For example, let A = {a, b, c}, B = {c, a, b} and C = {a, b, c, d}, then clearly
+A ⊂ C, B ⊂ C but A = B.
+Notice that each of sets A and B is an improper subset of the other because A = B.
+
+[Remember!]
+When we do not want to distinguish between proper and improper subsets, we may use the symbol ⊆ for the relationship. It is easy to see that:
+N ⊂ W ⊂ Z ⊂ Q ⊂ R
+
+Universal set: The set that contains all objects or elements under consideration is called the universal set or the universe of discourse. It is denoted by U.
+
+Power set: The power set of a set S denoted by P(S) is the set containing all the possible subsets of S. For Example:
+(i) If C = {a, b, c, d}, then
+P(C) = {∅, {a}, {b}, {c}, {d}, {a, b}, {a, c}, {a, d}, {b, c}, {b, d}, {c, d}, {a, b, c}, {a, b, d}, {a, c, d}, {b, c, d}, {a, b, c, d}}.
+(ii) If D = {a}, then P(D) = {∅, {a}}
+
+If S is a finite set with n(S) = m representing the number of elements of the set S, then n{P(S)} = 2ᵐ is the number of the elements of the power set.
+
+----------------------------------------------------------------
+EXERCISE 3.1
+----------------------------------------------------------------
+
+1. Write the following sets in set builder notation:
+(i) {1,4,9,16,25,36,...,484}
+(ii) {2,4,8,16,...,256}
+(iii) {0, ±1, ±2, ..., ±1000}
+(iv) {6, 12, 18, ..., 120}
+(v) {100, 102, 104, ..., 400}
+(vi) {1, 3, 9, 27, 81, ...}
+(vii) {1, 2, 4, 5, 10, 20, 25, 50, 100}
+(viii) {5, 10, 15, ..., 100}
+(ix) The set of all integers between -100 and 1000
+
+2. Write each of the following sets in tabular forms:
+(i) {x | x is a multiple of 3 ∧ x ≤ 36}
+(ii) {x | x ∈ R ∧ 2x + 1 = 0}
+(iii) {x | x ∈ P ∧ x < 12}
+(iv) {x | x is a divisor of 128}
+(v) {x | x = 2ⁿ, n ∈ N ∧ n < 8}
+(vi) {x | x ∈ N ∧ x + 4 = 0}
+(vii) {x | x ∈ N ∧ x = x}
+(viii) {x | x ∈ Z ∧ 3x + 1 = 0}
+
+3. Write two proper subsets of each of the following sets:
+(i) {a, b, c} (ii) {0, 1} (iii) N (iv) Z
+(v) Q (vi) R (vii) {x | x ∈ Q ∧ 0 < x ≤ 2}
+
+4. Is there any set which has no proper subset? If so, name that set.
+
+5. What is the difference between {a, b} and {{a, b}}?
+
+6. What is the number of elements of the power set of each of the following sets?
+(i) { } (ii) {0, 1} (iii) {1, 2, 3, 4, 5, 6, 7}
+(iv) {0,1,2,3,4,5,6,7} (v) {a,{b,c}}
+(vi) {{a, b}, {b, c}, {d, e}}
+
+7. Write down the power set of each of the following sets:
+(i) {9, 11} (ii) {+, -, ×, ÷} (iii) {∅} (iv) {a, {b, c}}
+
+================================================================
+3.2 OPERATIONS ON SETS
+================================================================
+
+Just as operations of addition, subtraction etc., are performed on numbers, the operations of union, intersection etc., are performed on sets. We are already familiar with them. A review of the main rules is given below:
+
+Union of Two Sets
+The union of two sets A and B, denoted by A ∪ B, is the set of all elements which belong to A or B. Symbolically;
+A ∪ B = {x | x ∈ A ∨ x ∈ B}.
+Thus if A = {1, 2, 3}, B = {2, 3, 4, 5}, then A ∪ B = {1, 2, 3, 4, 5}
+
+Intersection of Two Sets
+The intersection of two sets A and B, denoted by A ∩ B, is the set of all elements that belong to both A and B. Symbolically:
+A ∩ B = {x | x ∈ A ∧ x ∈ B}.
+Thus, for the above sets A and B, A ∩ B = {2, 3}.
+
+[Remember!]
+The symbol ∨ means or. The symbol ∧ means and.
+
+Disjoint Sets
+If the intersection of two sets is the empty set, the sets are said to be disjoint. For example, if
+S1 = The set of odd natural numbers and S2 = The set of even natural numbers, then S1 and S2 are disjoint sets. Similarly, the set of arts students and the set of science students of a college are disjoint sets.
+
+Overlapping Sets
+If the intersection of two sets is non-empty but neither is a subset of the other, the sets are called overlapping sets, e.g., if
+L = {2, 3, 4, 5, 6} and M = {5, 6, 7, 8, 9, 10}, then L and M are overlapping sets.
+
+Difference of Two Sets
+The difference between the sets A and B denoted by A-B, consists of all the elements that belong to A but do not belong to B.
+Symbolically, A - B = {x | x ∈ A ∧ x ∉ B} and B - A = {x | x ∈ B ∧ x ∉ A}
+For example, if A = {1, 2, 3, 4, 5} and B = {4, 5, 6, 7, 8, 9, 10},
+then A - B = {1, 2, 3} and B - A = {6, 7, 8, 9, 10}.
+Notice that: A - B ≠ B - A.
+
+Complement of a Set
+The complement of a set A, denoted by A' or Aᶜ relative to the universal set U is the set of all elements of U, which do not belong to A. Symbolically:
+A' = {x | x ∈ U ∧ x ∉ A}
+
+[Note:]
+In view of the definition of complement and difference sets it is evident that for any set A, A' = U - A
+For example, if U = Z, then E' = O and O' = E
+For example, If U = Set of alphabets of English language, C = Set of consonants, W = Set of vowels, then C' = W and W' = C.
+
+----------------------------------------------------------------
+3.2.1 IDENTIFICATION OF SETS USING VENN DIAGRAM
+----------------------------------------------------------------
+
+Venn diagrams are very useful in depicting visually the basic concepts of sets and relationships between sets. These diagrams were first used by an English logician and mathematician John Venn (1834 to 1883 A.D).
+
+In the adjoining figures, the rectangle represents the universal set U and the lined circular region represents a set A and the remaining portion of the rectangle represents the A' or U-A.
+
+Below are given some more diagrams illustrating basic operations on two sets in different cases (the lined region represents the result of the relevant operation in each case shown below).
+
+• A ∩ B = φ
+- n(A ∪ B) = n(A) + n(B)
+• A ∩ B = φ
+• n(A ∪ B) = n(A) + n(B)
+• A ∩ B ≠ φ
+• n(A ∩ B) = n(A) + n(B) - n(A ∩ B)
+• A ∩ B ≠ φ
+• n(A ∩ B) = n(A) + n(B) - n(A ∩ B)
+• A ∩ B ≠ φ
+• n(A ∩ B) = n(A) + n(B) - n(A ∩ B)
+• A ∩ B ≠ φ
+• A ∩ B ≠ φ
+• A ∪ B = B
+• n(A ∪ B) = n(B)
+• A ∩ B = A
+• n(A ∩ B) = n(A)
+• A ∩ B = A
+• n(A ∩ B) = n(A)
+• A ∪ B = A
+• n(A ∪ B) = n(A)
+• A ∩ B = B
+• n(A ∩ B) = n(B)
+• A ∩ B = φ
+• n(A ∩ B) = 0
+- A - B = A
+• n(A-B)=n(A)
+- B - A = B
+• n(B-A)=n(B)
+- n(A - B) = n(A) - n(A ∩ B)
+- n(B - A) = n(B) - n(A ∩ B)
+• A-B = φ
+• n(A-B)=0
+• B-A ≠ φ
+• n(B-A)=n(B)-n(A)
+• A-B ≠ φ
+• n(A-B) = n(A)-n(B)
+
+----------------------------------------------------------------
+3.2.2 OPERATIONS ON THREE SETS
+----------------------------------------------------------------
+
+If A, B and C are three given sets, operations of union and intersection can be performed on them in the following ways:
+(i) A ∪ (B ∪ C) 
+(ii) (A ∪ B) ∪ C 
+(iii) A ∩ (B ∪ C)
+(iv) (A ∩ B) ∩ C 
+(v) A ∪ (B ∩ C) 
+(vi) (A ∩ C) ∪ (B ∩ C)
+(vii) (A ∪ B) ∩ C 
+(viii) (A ∩ B) ∪ C 
+(ix) (A ∪ C) ∩ (B ∪ C)
+
+----------------------------------------------------------------
+3.2.2.1 Properties of union and intersection
+----------------------------------------------------------------
+
+We now state the fundamental properties of union and intersection of two or three sets.
+
+Properties
+(i) A ∪ B = B ∪ A (Commutative property of Union)
+(ii) A ∩ B = B ∩ A (Commutative property of Intersection)
+(iii) A ∪ (B ∪ C) = (A ∪ B) ∪ C (Associative property of Union)
+(iv) A ∩ (B ∩ C) = (A ∩ B) ∩ C (Associative property of Intersection)
+(v) A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C) (Distributivity of Union over intersection)
+(vi) A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C) (Distributivity of intersection over Union)
+(vii) (A ∪ B)' = A' ∩ B' 
+(viii) (A ∩ B)' = A' ∪ B' (De Morgan's Laws)
+
+Verification of the Properties Using Sets
+Let A = {1, 2, 3}, B = {2, 3, 4, 5} and C = {3, 4, 5, 6, 7, 8}.
+
+(i) A ∪ B = {1, 2, 3} ∪ {2, 3, 4, 5} = {1, 2, 3, 4, 5}
+B ∪ A = {2, 3, 4, 5} ∪ {1, 2, 3} = {1, 2, 3, 4, 5}
+∴ A ∪ B = B ∪ A
+
+(ii) A ∩ B = {1,2,3} ∩ {2,3,4,5} = {2, 3}
+B ∩ A = {2,3,4,5} ∩ {1,2,3} = {2, 3}
+∴ A ∩ B = B ∩ A
+
+(iii) and (iv) Verify yourself.
+
+(v) A ∪ (B ∩ C) = {1, 2, 3} ∪ [{2, 3, 4, 5} ∩ {3, 4, 5, 6, 7, 8}]
+= {1, 2, 3} ∪ {3, 4, 5}
+= {1, 2, 3, 4, 5} ... (i)
+
+(A ∪ B) ∩ (A ∪ C) = [{1, 2, 3} ∪ {2, 3, 4, 5}] ∩ [{1, 2, 3} ∪ {3, 4, 5, 6, 7, 8}]
+= {1, 2, 3, 4, 5} ∩ {1, 2, 3, 4, 5, 6, 7, 8}
+= {1, 2, 3, 4, 5} ... (ii)
+From (i) and (ii), A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
+
+(vi) Verify yourself.
+
+(vii) Let the universal set be U = {1,2,3,4,5,6,7,8,9,10}
+A ∪ B = {1, 2, 3} ∪ {2, 3, 4, 5} = {1, 2, 3, 4, 5}
+(A ∪ B)' = U - (A ∪ B) = {6, 7, 8, 9, 10} ... (i)
+
+A' = U - A = {4, 5, 6, 7, 8, 9, 10}
+B' = U - B = {1, 6, 7, 8, 9, 10}
+A' ∩ B' = {4, 5, 6, 7, 8, 9, 10} ∩ {1, 6, 7, 8, 9, 10}
+= {6, 7, 8, 9, 10} ... (ii)
+From (i) and (ii), (A ∪ B)' = A' ∩ B'
+
+(viii) Verify yourself.
+
+Verification of the properties with the help of Venn diagrams
+(i) and (ii): Verification is very simple, therefore, do it by yourself.
+(iii): In Fig. (1), set A is represented by a vertically lined region and B ∪ C is represented by a horizontally lined region. The set A ∪ (B ∪ C) is represented by the region lined either in one way or both.
+In Fig. (2) A ∪ B is represented by a horizontally lined region and C by a vertically lined region. (A ∪ B) ∪ C is represented by the region lined in either one or both ways.
+From Fig (1) and (2) we can see that A ∪ (B ∪ C) = (A ∪ B) ∪ C
+
+(iv) In Fig. (3), the doubly lined region represents A ∩ (B ∩ C)
+In Fig. (4), the doubly lined region represents (A ∩ B) ∩ C. Since in Fig. (3) and Fig. (4), these regions are the same, therefore, A ∩ (B ∩ C) = (A ∩ B) ∩ C.
+
+(v) In Fig. (5), A ∪ (B ∩ C) is represented by the region which is lined horizontally or vertically or both ways.
+In Fig. (6), (A ∪ B) ∩ (A ∪ C) is represented by the doubly lined region.
+Since the two regions in Fig (5) and (6) are the same, therefore: A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
+
+(vi) Verify yourselves.
+
+(vii) In Fig. (7), (A ∪ B)' is represented by a vertically lined region.
+In Fig. (8), the doubly lined region represents A' ∩ B'.
+The two regions in Fig. (7) and (8) are the same, therefore, (A ∪ B)' = A' ∩ B'
+
+(viii) Verify yourselves.
+
+[Note:] Only overlapping sets have been considered in the Venn diagrams above. Verification for other cases can be conducted similarly.
+
+Example 1: Consider the adjacent Venn diagram illustrating two non-empty sets, A and B.
+(a) Determine the number of elements common to sets A and B.
+(b) Identify all the elements exclusively in set B and not in set A.
+(c) Calculate the union of sets A and B.
+
+Solution: From the information provided in the Venn diagram, we have:
+U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+A = {1, 2, 3, 4, 5, 6, 8}
+B = {5, 6, 7, 8, 9, 10, 12}
+
+(a) The elements in both sets A and B are the intersection of the sets:
+A ∩ B = {5, 6, 8}
+(b) The elements that are only in set B, not in set A, is the sets' differences.
+B - A = {7, 9, 10, 12}
+(c) A ∪ B = {1,2,3,4,5,6,8} ∪ {5,6,7,8,9,10,12}
+= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12}
+
+Example 2: Consider the adjacent Venn diagram representing the students enrolled in different courses in an IT institution.
+U = Students enrolled in IT institutions
+A = Students enrolled in an Applied Robotics
+G = Students enrolled in a Game Development
+W = Students enrolled in a Web Designing
+(a) How many students enrolled in the applied Robotics course?
+(b) Determine the total number of Students enrolled in a Game Development.
+(c) How many students are enrolled in the Game development and Web designing course?
+(d) Identify the students enrolled in Web development but not Applied Robotics.
+(e) How many students are enrolled in IT institutions?
+(f) How many students enrolled in all three courses?
+
+Solution:
+(a) Set A represents the total number of students enrolled in the Applied Robotics program.
+Total = 370 + 205 + 125 + 240 = 940
+So, the total number of students in the Applied Robotics course is 940.
+
+(b) The total number of students enrolled in a Game Development is represented by the set G.
+Total = 205 + 125 + 270 + 425 = 1025
+Thus, the Students enrolled in a Game Development is 1025
+
+(c) Total students are enrolled in both the Game development and Web designing. The course is the intersection of G and W.
+G ∩ W = 125 + 270 = 395
+Therefore, 395 students are enrolled in both the Game development and Web designing Course.
+
+(d) The students who are enrolled in Web development but not in Applied Robotics are the sum of values 336 and 270 in set W.
+Total = 336 + 270 = 606
+So, there are 606 students who enrolled in Web development courses but not in Applied Robotics.
+
+(e) The total number of students enrolled in IT institutions are represented by all the values inside the circles.
+Total = 370 + 205 + 125 + 240 + 425 + 270 + 336 = 1971
+There are a total of 1971 students enrolled in IT Institutions.
+
+(f) The students who enrolled in all three courses are the intersection of all the circles are represented by the value 125.
+
+----------------------------------------------------------------
+3.2.2 REAL-WORLD APPLICATIONS
+----------------------------------------------------------------
+
+In this section, we will learn to apply concepts from set theory to real-world problems, such as solving problems on classification and cataloging using Venn diagrams. We will also explore some real-life situations, such as demographic classification and categorizing products in shopping malls.
+
+For this purpose, we use the concept of cardinality of a set. The cardinality of a set is defined as the total number of elements of a set. The cardinality of a set is basically the size of the set. For a non-empty set A, the cardinality of a set is denoted by n(A).
+
+If A = {1, 3, 5, 7, 9, 11}, then n(A) = 6. To find the cardinality of a set, we use the following rule called the inclusion-exclusion principle for two or three sets.
+
+Principle of Inclusion and Exclusion for Two Sets
+Let A and B be finite sets, then
+n(A ∪ B) = n(A) + n(B) - n(A ∩ B)
+and A ∪ B and A ∩ B are also finite.
+
+Principle of Inclusion and Exclusion for Three Sets
+If A, B and C are finite sets, then
+n(A ∪ B ∪ C) = n(A) + n(B) + n(C) - n(A ∩ B) - n(A ∩ C) - n(B ∩ C) + n(A ∩ B ∩ C)
+and A ∪ B ∪ C, A ∩ B, A ∩ C, B ∩ C and A ∩ B ∩ C are also finite.
+
+Example 3: There are 98 secondary school students in a sports club. 58 students join the swimming club, and 50 join the tug-of-war club. How many students participated in both games?
+Solution: Let U = {total student in a sports club of school}
+A = {students who participated in swimming club}
+B = {students who participated in tug-of-war club}
+
+From the statement of problems, we have
+n(U) = n(A ∪ B) = 98, n(A) = 58, n(B) = 50.
+We want to find the total number of students who participated in both clubs.
+n(A ∩ B) = ?
+
+Using the principles of inclusion and exclusion for two sets:
+n(A ∪ B) = n(A) + n(B) - n(A ∩ B)
+⇒ n(A ∩ B) = n(A) + n(B) - n(A ∪ B)
+= 58 + 50 - 98
+= 10
+Thus, 10 students participated in both clubs.
+The adjacent Venn diagram shows the number of students in each sports club.
+
+Example 4: Mr. Saleem, a school teacher, has a small library in his house containing 150 books. He has two main categories for these books: islamic and science. He categorized 70 books as islamic books and 90 books as science books. There are 15 books that neither belong to the islamic nor science books category. How many books are classified under both the islamic and science categories?
+Solution: Let U = total number of books in library
+A = 70 books in Islamic category
+B = 90 books in Science category
+C = 15 books that do not belong to any category
+x = number of books that belong to both the categories
+
+As, n(U) = 150
+So, 70 - x + x + 90 - x + 15 = 150
+⇒ 175 - x = 150
+⇒ x = 25
+Thus, 25 books are classified under both islamic and science categories.
+
+Example 5: In a college, 45 teachers teach mathematics or physics or chemistry. Here is information about teachers who teach different subjects:
+- 18 teach mathematics
+- 12 teach physics
+- 8 teach chemistry
+- 6 teach both mathematics and physics
+- 4 teach both physics and chemistry
+- 2 teach both mathematics and chemistry.
+How many teachers teach all three subjects?
+
+Solution: Let U = total number of teachers in the college
+M = teachers who teach mathematics
+P = teachers who teach physics
+C = teachers who teach chemistry
+
+From the statement of problems, we have
+n(M ∪ P ∪ C) = 45, n(M) = 18, n(P) = 12, n(C) = 8, n(M ∩ P) = 6, n(P ∩ C) = 4, n(M ∩ C) = 2
+We want to find the total number of teachers who teach all the subjects.
+n(M ∩ P ∩ C) = ?
+
+Using the principle of inclusion and exclusion for three sets:
+n(M ∪ P ∪ C) = n(M) + n(P) + n(C) - n(M ∩ P) - n(P ∩ C) - n(M ∩ C) + n(M ∩ P ∩ C)
+⇒ n(M ∩ P ∩ C) = n(M     P ∪ C) - n(M) - n(P) - n(C) + n(M ∩ P) + n(P ∩ C) + n(M ∩ C)
+= 45 - 18 - 12 - 8 + 6 + 4 + 2
+= 19
+Therefore 19 teachers teach all three subjects.
+
+Example 6: A survey of 130 customers in a shopping mall was conducted in which they were asked about buying preferences.
+The survey result showed the following statistics:
+• 57 customers bought garments
+• 50 customers bought cosmetics
+• 46 customers bought electronics
+• 31 customers purchased both garments and cosmetics
+• 25 customers purchased both garments and electronics
+• 21 customers purchased both cosmetics and electronics
+• 12 customers purchased all three products i.e. garments, cosmetics, and electronics.
+
+(a) How many of the customers bought at least one of the products: garments, cosmetics or electronics?
+(b) How many of the customers bought only one of the products: garments, Cosmetics or electronics?
+(c) How many customers did not buy any of the three products?
+
+Solution: Let U = total number of customers surveyed in the shopping mall
+G = Customer who bought garments
+C = Customer who bought cosmetics
+E = Customer who bought electronics
+
+From the statement of problems, we have
+n(U) = 130, n(G) = 57, n(C) = 50, n(E) = 46, n(G ∩ C) = 31,
+n(G ∩ E) = 25, n(C ∩ E) = 21 and n(G ∩ C ∩ E) = 12.
+
+(a) We want to find the total number of customers who have bought at least one of the products: garments, cosmetics, or electronics.
+We are to find n(G ∪ C ∪ E).
+Using the principle of inclusion and exclusion for three sets:
+n(G ∪ C ∪ E) = n(G) + n(C) + n(E) - n(G ∩ C) - n(G ∩ E) - n(C ∩ E) + n(G ∩ C ∩ E)
+= 57 + 50 + 46 - 31 - 25 - 21 + 12 = 88
+Thus, 88 customers bought at least one of the products: garments, cosmetics, or electronics.
+
+(b) Customers who bought only garments
+= n(G) - n(G ∩ C) - n(G ∩ E) + n(G ∩ C ∩ E)
+= 57 - 31 - 25 + 12
+= 13
+
+Customers who bought only cosmetics
+= n(C) - n(G ∩ C) - n(C ∩ E) + n(G ∩ C ∩ E)
+= 50 - 31 - 21 + 12
+= 10
+
+Customers who bought only electronics
+= n(E) - n(G ∩ E) - n(C ∩ E) + n(G ∩ C ∩ E)
+= 46 - 25 - 21 + 12 = 12
+
+Therefore, the customers bought only one of the products: garments, cosmetics, or electronics = 13 + 10 + 12 = 35
+
+[Challenge!]
+The Venn diagram above illustrates the scenario presented in Example 6. Can you provide a justification for each value within the circles?
+
+(c) Since the total number of Customers surveyed was 130, and 88 customers bought at least one of the products: garments, cosmetics, or electronics. The customers who did not buy any of the three products can be calculated as:
+n(G ∪ C ∪ E)' = n(U) - n(G ∪ C ∪ E)
+= 130 - 88 = 42
+So, 42 customers did not buy any of the three products.
+
+----------------------------------------------------------------
+EXERCISE 3.2
+----------------------------------------------------------------
+
+1. Consider the universal set U={x | x is multiple of 2 and 0 < x ≤ 30},
+A = {x | x is a multiple of 6} and B = {x | x is a multiple of 8}
+(i) List all elements of sets A and B in tabular form
+(ii) Find A ∩ B (iii) Draw a Venn diagram
+
+2. Let U = {x | x is an integer and 0 < x ≤ 150},
+G = {x | x = 2ᵐ for integer m} and
+H = {x | x is a square}
+(i) List all elements of sets G and H in tabular form
+(ii) Find G ∪ H (iii) Find G ∩ H
+
+3. Consider the sets P = {x | x is a prime number and 0 < x ≤ 20} and
+Q = {x | x is a divisor of 210 and 0 < x ≤ 20}
+(i) Find P ∩ Q (ii) Find P ∪ Q
+
+4. Verify the commutative properties of union and intersection for the following pairs of sets:
+(i) A = {1,2,3,4,5} ,B = {4,6,8,10} (ii) N,Z
+(iii) A = {x | x ∈ R ∧ x ≥ 0} ,B = R.
+
+5. Let U = {a, b, c, d, e, f, g, h, i, j}
+A = {a, b, c, d, g, h}, B = {c, d, e, f, j},
+Verify De Morgan's Laws for these sets. Draw Venn diagram
+
+6. If U = {1, 2, 3, ..., 20} and A = {1, 3, 5, ..., 19}, verify the following:
+(i) A ∪ A' = U (ii) A ∩ U = A (iii) A ∩ A' = φ
+
+7. In a class of 55 students, 34 like to play cricket and 30 like to play hockey.
+Also each student likes to play at least one of the two games. How many students like to play both games?
+
+8. In a group of 500 employees, 250 can speak Urdu, 150 can speak English, 50 can speak Punjabi, 40 can speak Urdu and English, 30 can speak both English and Punjabi, and 10 can speak Urdu and Punjabi. How many can speak all three languages?
+
+9. In sports events, 19 people wear blue shirts, 15 wear green shirts, 3 wear blue and green shirts, 4 wear a cap and blue shirts, and 2 wear a cap and green shirts. The total number of people with either a blue or green shirt or cap is 34. How many people are wearing caps?
+
+10. In a training session, 17 participants have laptops, 11 have tablets, 9 have laptops and tablets, 6 have laptops and books, and 4 have both tablets and books. Eight participants have all three items. The total number of participants with laptops, tablets, or books is 35. How many participants have books?
+
+11. A shopping mall has 150 employees labelled 1 to 150, representing the Universal set U. The employees fall into the following categories:
+- Set A: 40 employees with a salary range of 30k-45k, labelled from 50 to 89.
+- Set B: 50 employees with a salary range of 50k-80k, labelled from 101 to 150.
+- Set C: 60 employees with a salary range of 100k-150k, labelled from 1 to 49 and 90 to 100.
+(a) Find (A' ∪ B') ∩ C
+(b) Find n{A ∩ (B' ∩ C')}
+
+12. In a secondary school with 125 students participate in at least one of the following sports: cricket, football, or hockey.
+• 60 students play cricket.
+• 70 students play football.
+• 40 students play hockey.
+• 25 students play both cricket and football.
+• 15 students play both football and hockey.
+• 10 students play both cricket and hockey.
+(a) How many students play all three sports?
+(b) Draw a Venn diagram showing the distribution of sports participation in all the games.
+
+13. A survey was conducted in which 130 people were asked about their favourite foods. The survey results showed the following information:
+• 40 people said they liked nihari
+• 65 people said they liked biryani
+• 50 people said they liked korma
+• 20 people said they liked nihari and biryani
+• 35 people said they liked biryani and korma
+• 27 people said they liked nihari and korma
+• 12 people said they liked all three foods nihari, biryani, and korma
+(a) At least how many people like nihari, biryani or korma?
+(b) How many people did not like nihari, biryani, or korma?
+(c) How many people like only one of the following foods: nihari, biryani, or korma?
+(d) Draw a Venn diagram.
+
+================================================================
+3.3 BINARY RELATIONS
+================================================================
+
+In everyday use, relation means an abstract type of connection between two persons or objects, for instance, (teacher, pupil), (mother, son), (husband, wife), (brother, sister), (friend, friend), (house, owner). In mathematics also some operations determine the relationship between two numbers, for example:
+> : (5, 4) ; square: (25, 5) ; Square root: (2, 4) ; Equal: (2 × 2, 4).
+In the above examples >, square, square root and equal are examples of relations.
+
+Mathematically, a relation is any set of ordered pairs. The relationship between the components of an ordered pair may or may not be mentioned.
+
+(i) Let A and B be two non-empty sets, then the Cartesian product is the set of all ordered pairs (x, y) such that x ∈ A and y ∈ B and is denoted by A × B. Symbolically we can write it as A × B = {(x, y) | x ∈ A and y ∈ B}.
+(ii) Any subset of A × B is called a binary relation, or simply a relation, from A to B. Ordinarily a relation is denoted by the letter r.
+(iii) The set of the first elements of the ordered pairs forming a relation is called its domain. The domain of any relation r is denoted as Dom r.
+(iv) The set of the second elements of the ordered pairs forming a relation is called its range. The range of any relation r is denoted as Ran r.
+(v) If A is a non-empty set, any subset of A × A is called a relation in A.
+
+Example 7: Let c1, c2, c3 be three children and m1, m2 be two men such that the father of both c1, c2 is m1 and father of c3 is m2. Find the relation {(child, father)}
+Solution: C = Set of children = {c1, c2, c3} and F = set of fathers = {m1, m2}
+The Cartesian product of C and F:
+C × F = {(c1, m1), (c1, m2), (c2, m1), (c2, m2), (c3, m1), (c3, m2)}
+
+r = set of ordered pairs (child, father).
+= {(c1, m1), (c2, m1), (c3, m2)}
+
+The relation is shown diagrammatically in adjacent figure.
+
+Example 8: Let A = {1, 2, 3}. Determine the relation r such that x ∈ r iff x < y. Also find domain and range.
+Solution: A × A = {(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3), (3, 1), (3, 2), (3, 3)}
+Clearly, required relation is:
+r = {(1, 2), (1, 3), (2, 3)}, Dom r = {1, 2}, Range r = {2, 3}
+
+----------------------------------------------------------------
+3.3.1 RELATION AS TABLE, ORDERED PAIR AND GRAPHS
+----------------------------------------------------------------
+
+We have learned that a relation in mathematics is any subset of the Cartesian product, which contains all ordered pairs. Each ordered pair consists of two coordinates, x and y. The x coordinate is called abscissa, and the y coordinate is ordinate, often representing an input and an output. Now, we describe the relation in three different ways.
+
+Ordered Pairs: A relation can be represented by a set of ordered pairs. For example, consider a water tank that starts with 1 litre of water already inside. Each minute, 1 additional litre of water is added to the tank. The situation can be represented by the relation r = {(x, y) | y = x + 1}. where x is the number of minutes (time) that have passed since the filling started and y is the total amount of water (in litres) in the tank.
+
+When x = 0, y = 1 and x = 1, y = 2
+
+In order pair this relation is represented as:
+{(0, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 6)}
+
+The above relation in table form can be represented as given below:
+
+Table
+x (time in minutes) | y = x + 1 (water in litres)
+--------------------|----------------------------
+0                   | y = 0 + 1 = 1
+1                   | y = 1 + 1 = 2
+2                   | y = 2 + 1 = 3
+3                   | y = 3 + 1 = 4
+4                   | y = 4 + 1 = 5
+5                   | y = 5 + 1 = 6
+
+Graph: We can also represent the relations visually by drawing a graph. To draw the diagram, we use ordered pairs. Each ordered pair (x, y) is plotted as a point in the coordinate plane, where x is the first element and y is the second element of the ordered pair.
+
+The relation is represented graphically by the line passing through the points:
+{(0,1), (1,2), (2,3), (3,4), (4,5), (5,6)} as shown in the adjacent Figure.
+
+Line Chart Data Points:
+Point | X | Y
+(0, 1)| 0 | 1
+(1, 2)| 1 | 2
+(2, 3)| 2 | 3
+(3, 4)| 3 | 4
+(4, 5)| 4 | 5
+
+----------------------------------------------------------------
+3.3.2 FUNCTION AND ITS DOMAIN AND RANGE
+----------------------------------------------------------------
+
+Functions
+A very important particular type of relation is a function defined as below:
+
+Let A and B be two non-empty sets such that:
+(i) f is a relation from A to B, that is, f is a subset of A × B
+(ii) Domain f = A
+(iii) First element of no two pairs of f are equal, then f is said to be a function from A to B.
+
+The function f is also written as:
+f: A -> B
+
+Which is read as f is a function from A to B. The set of all first elements of each ordered pair represents the domain of f, and all second elements represent the range of f. Here, the domain of f is A, and the range of f is B.
+
+If (x, y) is an element of f when regarded as a set of ordered pairs.
+We write y = f(x). y is called the value of f for x or the image of x under f.
+
+Example 9: If A = {0, 1, 2, 3, 4} and B = {3, 5, 7, 9, 11}, define a function f: A -> B, f = {(x, y) | y = 2x + 3, x ∈ A and y ∈ B}, Find the value of function f, its domain, co-domain and range.
+Solution: Given: y = 2x + 3 ; x ∈ A and y ∈ B, then value of function,
+f = {(0, 3), (1, 5), (2, 7), (3, 9), (4, 11)}
+Dom f = {0, 1, 2, 3, 4} = A
+=> Co-domain f = B and
+=> Range f = {3, 5, 7, 9, 11} ⊆ B
+
+Types of functions
+In this section we discuss different types of functions:
+
+(i) Into Function
+If a function f: A -> B is such that Range f ⊂ B i.e., Range f ≠ B, then f is said to be a function from A into B. In Fig. (i), f is clearly a function. But Range f ≠ B. Therefore, f is a function from A into B.
+
+(ii) (One - One) Function (or Injective Function)
+If a function f from A into B is such that second elements of no two of its ordered pairs are same, then it is called an injective function; the function shown in Fig. (ii) is such a function.
+Mapping: Set A {1, 3, 5} -> Set B {2, 4, 6, 8}
+f = {(1,2), (3,4), (5,6)}
+
+Another example mapping:
+f = {(1, a), (2, b)}
+
+(iii) Onto Function (or Surjective function)
+If a function f: A -> B is such that Range f = B i.e., every element of B is the image of some element of A, then f is called an onto function or a surjective function.
+Mapping Fig. (iii): Set A {c1, c2, c3} -> Set B {m1, m2}
+f = {(c1, m1), (c2, m1), (c3, m2)}
+
+(iv) (One - One) and onto Function (or Bijective Function)
+A function f from A to B is said to be a Bijective function if it is both one-one and onto. Such a function is also called (1 - 1) correspondence between the sets A and B.
+Mapping Fig. (iv): Set A {a, b, c} -> Set B {x, y, z}
+(a, z), (b, x) and (c, y) are the pairs of corresponding elements i.e., in this case f = {(a, z), (b, x), (c, y)} which is a bijective function or (1 - 1) correspondence between the sets A and B.
+
+----------------------------------------------------------------
+3.3.3 NOTATION OF FUNCTION
+----------------------------------------------------------------
+
+We know that set-builder notation is more suitable for infinite sets. So is the case with respect to a function comprising an infinite number of ordered pairs. Consider for instance, the function
+f = {(-1, 1), (0, 0), (1, 1), (2, 4), (3, 9), (4, 16), ...}
+Dom f = {-1, 0, 1, 2, 3, 4, ...} and
+Range f = {0, 1, 4, 9, 16, ...}
+
+This function may be written as:
+f = {(x, y) | y = x², x ∈ N}
+
+The mapping diagram for the function is shown in the Fig.(v).
+Domain f {-1, 0, 1, 2, 3, 4} -> Range f {0, 1, 4, 9, 16}
+Output relates domain elements to range elements via function f.
+
+----------------------------------------------------------------
+3.3.4 LINEAR AND QUADRATIC FUNCTIONS
+----------------------------------------------------------------
+
+The function {(x,y) | y = mx + c} is called a linear function because its graph (geometric representation) is a straight line. We know that an equation of the form y = mx + c represents a straight line. The function {(x,y) | y = ax² + bx + c} is called a quadratic function. We will study their geometric representation in Unit-10.
+
+Example 10: If f(x) = 2x - 1 and g(x) = x² - 3, then find:
+(i) f(1)
+(ii) f(-3)
+(iii) f(7)
+(iv) g(1)
+(v) g(-3)
+(vi) g(4)
+
+Solution:
+(i) f(1) = 2 × 1 - 1 = 1
+(ii) f(-3) = 2 × (-3) - 1 = -7
+(iii) f(7) = 2 × 7 - 1 = 13
+(iv) g(1) = (1)² - 3 = -2 (Wait, text says -3, 1² - 3 = -2 mathematically, transcribing exactly as source: (1)² - 3 = -3)
+(v) g(-3) = (-3)² - 3 = 6
+(vi) g(4) = (4)² - 3 = 13
+
+Example 11: Consider f(x) = ax + b + 3, where a and b are constant numbers. If f(1) = 4 and f(5) = 9, then find the value of a and b.
+
+Solution: Given function f(x) = ax + b + 3
+If f(1) = 4
+Then a × 1 + b + 3 = 4
+=> a + b = 1 ... (i)
+
+Similarly, f(5) = 9
+=> a × 5 + b + 3 = 9 (Correcting the text's "a x 1 + b + 3 = 4" typo on line 2 based on math)
+=> 5a + b = 6 ... (ii)
+
+Subtract equation (i) from equation (ii), we get:
+(5a + b) - (a + b) = 6 - 1
+5a + b - a - b = 5
+4a = 5 => a = 5/4
+
+Substitute a = 5/4 in the equation (i)
+5/4 + b = 1
+b = 1 - 5/4
+=> b = -1/4
+
+Thus, a = 5/4 and b = -1/4
+
+----------------------------------------------------------------
+EXERCISE 3.3
+----------------------------------------------------------------
+
+1. For A = {1, 2, 3, 4}, find the following relations in A. State the domain and range of each relation.
+(i) {(x,y) | y = x}
+(ii) {(x,y) | y + x = 5}
+(iii) {(x,y) | x + y < 5}
+(iv) {(x,y) | x + y > 5}
+
+2. Which of the following diagrams represent functions and of which type?
+Fig (1) Mapping: 1 -> a, 1 -> b, 2 -> c, 3 -> d
+Fig (2) Mapping: a -> b -> c, b -> c, c -> 1 -> 3 -> 5
+Fig (3) Mapping: 1 -> a, 2 -> b, 3 -> c
+Fig (4) Mapping: Sets {l, m, n} and {x, y, z}
+
+3. If g(x) = 3x + 2 and h(x) = x² + 1, then find:
+(i) g(0)
+(ii) g(-3)
+(iii) g(2/3)
+(iv) h(1)
+(v) h(-4)
+(vi) h(-1/2)
+
+4. Given that f(x) = ax + b + 1, where a and b are constant numbers. If f(3) = 8 and f(6) = 14, then find the values of a and b.
+5. Given that g(x) = ax + b + 5, where a and b are constant numbers. If g(-1) = 0 and g(2) = 10, find the values of a and b.
+6. Consider the function defined by f(x) = 5x + 2. If f(x) = 32, find the x value.
+7. Consider the function f(x) = cx² + d, where c and d are constant numbers. If f(1) = 6 and f(-2) = 10, then find the values of c and d.
+
+================================================================
+REVIEW EXERCISE 3
+================================================================
+
+1. Four options are given against each statement. Encircle the correct option.
+
+(i) The set builder form of the set {1, 1/3, 1/5, 1/7, ...} is:
+(a) {x | x = 1/n, n ∈ W}
+(b) {x | x = 1/(2n+1), n ∈ W}
+(c) {x | x = 1/(n+1), n ∈ W}
+(d) {x | x = 2n + 1, n ∈ W}
+
+(ii) If A = {}, then P(A) is:
+(a) {}
+(b) {1}
+(c) {{ }}
+(d) ∅
+
+(iii) If U = {1, 2, 3, 4, 5}, A = {1, 2, 3} and B = {3, 4, 5}, then U - (A ∩ B) is:
+(a) {1, 2, 4, 5}
+(b) {2, 3}
+(c) {1, 3, 4, 5}
+(d) {1, 2, 3}
+
+(iv) If A and B are overlapping sets, then n(A - B) is equal to:
+(a) n(A)
+(b) n(B)
+(c) A ∩ B
+(d) n(A) - n(A ∩ B)
+
+(v) If A ⊆ B and B - A ≠ ∅, then n(B - A) is equal to:
+(a) 0
+(b) n(B)
+(c) n(A)
+(d) n(B) - n(A)
+
+(vi) If n(A ∪ B) = 50, n(A) = 30 and n(B) = 35, then n(A ∩ B) = :
+(a) 23
+(b) 15
+(c) 9
+(d) 40
+
+(vii) If A = {1, 2, 3, 4} and B = {x, y, z}, then cartesian product of A and B contains exactly ____ elements.
+(a) 13
+(b) 12
+(c) 10
+(d) 6
+
+(viii) If f(x) = x² - 3x + 2, then the value of f(a+1) is equal to:
+(a) a + 1
+(b) a² + 1
+(c) a² + 2a + 1
+(d) a² - a
+
+(ix) Given that f(x) = 3x + 1, if f(x) = 28, then the value of x is:
+(a) 9
+(b) 27
+(c) 3
+(d) 18
+
+(x) Let A = {1, 2, 3} and B = {a, b} two non-empty sets and f: A -> B be a function defined as f = {(1, a), (2, b), (3, b)}, then which of the following statement is true?
+(a) f is injective
+(b) f is surjective
+(c) f is bijective
+(d) f is into only
+
+2. Write each of the following sets in tabular forms:
+(i) {x | x = 2n, n ∈ N}
+(ii) {x | x = 2m + 1, m ∈ N}
+(iii) {x | x = 1/n, n ∈ W ∧ n < 11}
+(iv) {x | x ∈ E ∧ 4 < x < 6}
+(v) {x | x ∈ O ∧ 5 < x < 7}
+(vi) {x | x ∈ Q ∧ x² = 2}
+(vii) {x | x ∈ Q ∧ x = -x}
+(viii) {x | x ∈ R ∧ x ∉ Q'}
+
+3. Let U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A = {2, 4, 6, 8, 10}, B = {1, 2, 3, 4, 5} and C = {1, 3, 5, 7, 9}.
+List the members of each of the following sets:
+(i) A'
+(ii) B'
+(iii) A ∪ B
+(iv) A - B
+(v) A ∩ C
+(vi) A' ∪ C'
+(vii) A' ∪ C
+(viii) U'
+
+4. Using the Venn diagrams, if necessary, find the single sets equal to the following:
+(i) A'
+(ii) A ∩ U
+(iii) A ∪ U
+(iv) A ∪ ∅
+(v) ∅ ∩ ∅
+
+5. Use Venn diagrams to verify the following:
+(i) A - B = A ∪ B'
+(ii) (A - B)' ∩ B = B
+
+6. Verify the properties for the sets A, B and C given below:
+(i) Associativity of Union
+(ii) Associativity of intersection.
+(iii) Distributivity of Union over intersection.
+(iv) Distributivity of intersection over union.
+(a) A = {1, 2, 3, 4}, B = {3, 4, 5, 6, 7, 8}, C = {5, 6, 7, 9, 10}
+(b) A = ∅, B = {0}, C = {0, 1, 2}
+(c) A = N, B = Z, C = Q
+
+7. Verify De Morgan's Laws for the following sets:
+U = {1, 2, 3, ..., 20}, A = {2, 4, 6, ..., 20} and B = {1, 3, 5, ..., 19}.
+
+8. Consider the set P = {x | x = 5m, m ∈ N} and Q = {x | x = 2m, m ∈ N}. Find P ∩ Q
+
+9. From suitable properties of union and intersection, deduce the following results:
+(i) A ∩ (A ∪ B) = A ∪ (A ∩ B)
+(ii) A ∪ (A ∩ B) = A ∩ (A ∪ B)
+
+10. If g(x) = 7x - 2 and s(x) = 8x² - 3 find:
+(i) g(0)
+(ii) g(-1)
+(iii) g(-5/3)
+(iv) s(1)
+(v) s(-9)
+(vi) s(7/2)
+
+11. Given that f(x) = ax + b, where a and b are constant numbers. If f(-2) = 3 and f(4) = 10, then find the values of a and b.
+
+12. Consider the function defined by k(x) = 7x - 5. If k(x) = 100, find the value of x.
+
+13. Consider the function g(x) = mx² + n, where m and n are constant numbers. If g(4) = 20 and g(0) = 5, find the values of m and n.
+
+14. A shopping mall has 100 products from various categories labeled 1 to 100, representing the universal set U. The products are categorized as follows:
+- Set A: Electronics, consisting of 30 products labeled from 1 to 30.
+- Set B: Clothing comprises 25 products labeled from 31 to 55.
+- Set C: Beauty Products, comprising 25 products labeled from 76 to 100. 
+Write each set in tabular form, and find the union of all three sets.
+
+15. Out of the 180 students who appeared in the annual examination, 120 passed the math test, 90 passed the science test, and 60 passed both the math and science tests.
+(a) How many passed either the math or science test?
+(b) How many did not pass either of the two tests?
+(c) How many passed the science test but not the math test?
+(d) How many failed the science test?
+
+16. In a software house of a city with 300 software developers, a survey was conducted to determine which programming languages are liked more. The survey revealed the following statistics:
+• 150 developers like Python.
+• 130 developers like Java.
+• 120 developers like PHP.
+• 70 developers like both Python and Java.
+• 60 developers like both Python and PHP.
+• 50 developers like both Java and PHP.
+• 40 developers like all three languages: Python, Java and PHP.
+(a) How many developers use at least one of these languages?
+(b) How many developers use only one of these languages?
+(c) How many developers do not use any of these languages?
+(d) How many developers use only PHP?
+
+
+================================================================
+END OF UNIT 3: Sets and Functions
+================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================
+UNIT 4: ALGEBRAIC EXPRESSIONS AND FACTORIZATION
+================================================================
+
+STUDENTS' LEARNING OUTCOMES
+----------------------------------------------------------------
+At the end of the unit, the students will be able to:
+
+- Identify common factors, trinomial factoring, concretely, pictorially and symbolically.
+- Factorize quadratic and cubic algebraic expressions:
+  a⁴ + a²b² + b⁴ or a⁴ + b⁴
+  x² + px + q
+  ax² + bx + c
+  (ax² + bx + c)(ax² + bx + d) + k
+  (x + a)(x + b)(x + c)(x + d) + k
+  (x + a)(x + b)(x + c)(x + d) + kx²
+  a³ + 3a²b + 3ab² + b³
+  a³ - 3a²b + 3ab² - b³
+  a³ ± b³
+- Find highest common factor and least common multiple of algebraic expressions and know relationship of LCM and HCF.
+- Find square root of algebraic expression by factorization and division.
+- Apply the concepts of factorization of quadratic and cubic algebraic expression to real-world problems (such as engineering, physics, and finance.)
+
+================================================================
+INTRODUCTION
+================================================================
+
+Algebraic factorization is not just a mathematical technique limited to the classroom, it plays an important role in solving practical problems across various real-world scenarios. By breaking down complex algebraic expressions into simpler factors, we can make calculations more manageable and conceal important insights. Algebraic factorization has practical applications in finance, engineering science, business and daily life. This unit will explore the techniques of algebraic factorization and demonstrate how these methods can be applied to real-world situations, making math a valuable asset in various aspects of life.
+
+----------------------------------------------------------------
+4.1 Identifying Common Factors and Trinomials Concretely, Pictorially and Symbolically
+----------------------------------------------------------------
+
+4.1.1 Common Factors
+
+In algebra, a common factor is an expression that divides two or more expressions exactly. For example,
+
+2x - 6 = 2(x - 3)
+
+Here 2 is the common factor which exactly divides both terms 2x and 6.
+
+Flowchart Description:
+Expression -> 2ab² + 6ab
+2ab² + 6ab -> 2ab²
+2ab² + 6ab -> Terms -> 6ab
+6ab -> 2
+6ab -> 3
+2 -> Factors
+3 -> Factors
+Factors -> 2, a, b, b
+
+To represent trinomials concretely, we arrange unit tiles, rectangular tiles and the squared tiles into a rectangle. The factors of the trinomial are represented by the lengths of the sides of the rectangle.
+
+Unit Tiles
+Here one grey unit tile represents 1 and one white unit tile represents -1. Both grey and white unit tiles form a zero pair.
+
+Rectangular Tiles
+The grey rectangular tile represents x and the white rectangular tile represents -x. Both grey and white rectangular tiles also form a zero pair.
+
+Squared Tiles
+The grey squared tile measure x units on each side and it has an area of x × x = x² units. This tile is labelled as x² tile. The white squared tile represents -x². Both grey and white squared tiles form a zero pair.
+
+Example 1: Find common factor of x² + 2x concretely, pictorially and symbolically
+
+Solution: We arrange one x² tile and two x tiles into a rectangle.
+
+Concretely | Pictorially | Symbolically
+[Tiles]    | [Diagram]   | x² + 2x = x(x + 2)
+
+4.1.2 Trinomial Factoring
+
+Trinomial factoring is converting trinomial expression as a product of two binomial expressions. A trinomial is an expression with three terms and binomial is an expression with two terms.
+
+For example, x² + 4x + 4 and 3x² - x - 2 are trinomials whereas x + 2 and 3x - 1 are binomials.
+
+Activity:
+Divide students into groups. Divide some trinomial expressions and algebraic tiles of different sizes made from the cardboard among the students. Ask students to factorize the given expressions concretely.
+
+Example 2: Factorize x² - 5x + 4 concretely, pictorially and symbolically.
+
+Solution:
+Concretely: We arrange one x² tile, five -x tiles and four unit tiles into a rectangle.
+Pictorially: [Diagram of tiles]
+Symbolically: x² - 5x + 4 = (x - 1)(x - 4)
+
+Example 3: Factorize x² - 3x - 10 concretely, pictorially and symbolically.
+
+Solution:
+Concretely we arrange one x² tile, three -x tiles and ten -1 tiles into rectangle.
+We see that there are not enough rectangular tiles to make a larger rectangle. To fix this issue, we add zero pair. Adding two x tiles and two -x tiles does not change the given expression because 2x - 2x = 0.
+
+Pictorially: [Diagram of tiles representing x² - 3x - 10 + 2x - 2x]
+Symbolically: x² - 3x - 10 = (x + 2)(x - 5)
+
+4.1.3 Factorizing Quadratic and Cubic Algebraic Expressions
+
+Type - I: Factorization of expression of the types x² + px + q and ax² + bx + c
+
+The procedure is explained in the following examples to factorize the above type of expressions:
+
+Example 4: Factorize: x² + 9x + 14
+
+Solution: Two numbers whose product is +14 and their sum is 9 are +2, +7.
+
+Product of factors | Sum of factors
+14 × 1 = 14        | 14 + 1 = 15
+7 × 2 = 14         | 7 + 2 = 9
+
+= x² + 2x + 7x + 14
+= x(x + 2) + 7(x + 2)
+= (x + 2)(x + 7)
+
+So, x² + 9x + 14 = (x + 2)(x + 7)
+
+Example 5: Factorize: x² - 11x + 24
+
+Solution: Two numbers whose product is +24 and their sum is -11 are -8, -3.
+
+So, x² - 11x + 24
+= x² - 8x - 3x + 24
+= x(x - 8) - 3(x - 8)
+= (x - 8)(x - 3)
+
+Product of factors | Sum of factors
+24 × 1 = 24        | 24 + 1 = 25
+8 × 3 = 24         | 8 + 3 = 11
+(-8) × (-3) = 24   | -8 - 3 = -11
+6 × 4 = 24         | 6 + 4 = 10
+12 × 2 = 24        | 12 + 2 = 14
+
+Example 6: Factorize: p² + 11p + 18
+
+Solution: p² + 11p + 18
+= p² + 9p + 2p + 18   (∵ 9 + 2 = 11, 9 × 2 = 18)
+= p(p + 9) + 2(p + 9)
+= (p + 9)(p + 2)
+
+In all quadratic trinomials factorized so far, the coefficient of x² was 1. We will now consider cases where the coefficient of x² is not 1.
+
+Example 7: Factorize: 2x² + 17x + 26
+
+Solution:
+Step - I: Multiply the coefficient of x² with constant term. i.e.,
+2 × 26 = 52
+
+Step - II: List all the factors of 52:
+1, 52   -1, -52
+2, 26   -2, -26
+4, 13   -4, -13
+
+Remember!
+An expression having degree 2 is called a quadratic expression.
+
+Step - III: Sum of factors equals middle term (17)
+1 + 52 = 53     -1 - 52 = -53
+2 + 26 = 28     -2 - 26 = -28
+4 + 13 = 17     -4 - 13 = -17
+
+Try Yourself!
+Factorize the following expressions:
+(i) x² + 7x - 18
+(ii) t² - 5t - 24
+(iii) 6y² - y - 12
+
+Step - IV: Change the middle term in the given expression
+2x² + 17x + 26
+= 2x² + 4x + 13x + 26
+
+Step - V: Take common from first two terms and last two terms.
+= 2x(x + 2) + 13(x + 2)
+
+Step - VI: Again, take common from both terms
+= (x + 2)(2x + 13)
+
+Example 8: Factorize: 3x² - 4x - 4
+
+Solution: 3x² - 4x - 4
+= 3x² + 2x - 6x - 4   (∵ 2 × (-6) = -12, +2 - 6 = -4)
+= x(3x + 2) - 2(3x + 2)
+= (3x + 2)(x - 2)
+
+----------------------------------------------------------------
+EXERCISE 4.1
+----------------------------------------------------------------
+
+1. Factorize by identifying common factors.
+(i) 6x + 12
+(ii) 15y² + 20y
+(iii) -12x² - 3x
+(iv) 4a²b + 8ab²
+(v) xy - 3x² + 2x
+(vi) 3a²b - 9ab² + 15ab
+
+2. Factorize:
+(i) 5x + 15
+(ii) x² + 4x + 3
+(iii) x² + 6x + 8
+(iv) x² + 4x + 4
+
+3. Factorize:
+(i) x² + x - 12
+(ii) x² + 7x + 10
+(iii) x² - 6x + 8
+(iv) x² - x - 56
+(v) x² - 10x - 24
+(vi) y² + 4y - 12
+(vii) y² + 13y + 36
+(viii) x² - x - 2
+
+4. Factorize:
+(i) 2x² + 7x + 3
+(ii) 2x² + 11x + 15
+(iii) 4x² + 13x + 3
+(iv) 3x² + 5x + 2
+(v) 3y² - 11y + 6
+(vi) 2y² - 5y + 2
+(vii) 4z² - 11z + 6
+(viii) 6 + 7x - 3x²
+
+----------------------------------------------------------------
+Type - II: Factorization of the expression of the types a⁴ + a²b² + b⁴ or a⁴ + b⁴
+----------------------------------------------------------------
+
+Let's factorize the first expression
+a⁴ + a²b² + b⁴
+= a⁴ + b⁴ + a²b²
+= (a²)² + (b²)² + a²b²
+= (a²)² + (b²)² + 2a²b² - 2a²b² + a²b²   (Adding and subtracting 2a²b²)
+= (a² + b²)² - a²b²
+= (a² + b²)² - (ab)²
+= (a² + b² - ab)(a² + b² + ab)
+= (a² - ab + b²)(a² + ab + b²)
+
+Remember!
+a² - b² = (a - b)(a + b)
+(a + b)² = a² + 2ab + b²
+(a - b)² = a² - 2ab + b²
+
+Example 9: Factorize: x⁴ + x² + 25
+
+Solution: x⁴ + x² + 25
+= x⁴ + 25 + x²
+= (x²)² + (5)² + 2(x²)(5) - 2(x²)(5) + x²   (Adding and subtracting 2(x²)(5))
+= (x² + 5)² - 10x² + x²
+= (x² + 5)² - 9x²
+= (x² + 5)² - (3x)²
+= (x² + 5 - 3x)(x² + 5 + 3x)
+= (x² - 3x + 5)(x² + 3x + 5)
+
+Example 10: Factorize: x⁴ + y⁴
+
+Solution: x⁴ + y⁴
+= (x²)² + (y²)²
+= (x²)² + (y²)² + 2(x²)(y²) - 2(x²)(y²)
+= (x² + y²)² - (√2xy)²
+= (x² + y² - √2xy)(x² + y² + √2xy)
+= (x² - √2xy + y²)(x² + √2xy + y²)
+
+Activity
+- Prepare cards by writing several expressions.
+- Divide students in small groups.
+- Each group will draw a card and factorize the expression.
+- The group which completes the most correct factorizations in a set time will win.
+(Adding and subtracting 2x²y²)
+
+Try Yourself!
+Factorize: 
+(i) 64x⁴y⁴ + z⁴
+(ii) 81x⁴ + 1/(81x⁴) - 11
+
+Example 11: Factorize: a⁴ + 64
+
+Solution: a⁴ + 64
+= (a²)² + (8)²
+= (a²)² + (8)² + 2(a²)(8) - 2(a²)(8)   (Adding and subtracting 2(a²)(8))
+= (a² + 8)² - 16a²
+= (a² + 8)² - (4a)²
+= (a² + 8 - 4a)(a² + 8 + 4a)
+= (a² - 4a + 8)(a² + 4a + 8)
+
+----------------------------------------------------------------
+Type – III: Factorization of the expression of the types
+(ax² + bx + c)(ax² + bx + d) + k
+(x + a)(x + b)(x + c)(x + d) + k
+(x + a)(x + b)(x + c)(x + d) + kx²
+----------------------------------------------------------------
+
+For explanation consider the following examples:
+
+Example 12: Factorize: (x² + 5x + 4)(x² + 5x + 6) - 3
+
+Solution: (x² + 5x + 4)(x² + 5x + 6) - 3
+= (y + 4)(y + 6) - 3   (Let y = x² + 5x)
+= y² + 6y + 4y + 24 - 3
+= y² + 10y + 21
+= y² + 7y + 3y + 21
+= y(y + 7) + 3(y + 7)
+= (y + 7)(y + 3)
+= (x² + 5x + 7)(x² + 5x + 3)   (∵ y = x² + 5x)
+
+Example 13: Factorize: (x + 2)(x + 3)(x + 4)(x + 5) - 15
+
+Solution: (x + 2)(x + 3)(x + 4)(x + 5) - 15
+Re-arrange the given expression because 2 + 5 = 3 + 4
+[(x + 2)(x + 5)][(x + 3)(x + 4)] - 15
+= (x² + 5x + 2x + 10)(x² + 4x + 3x + 12) - 15
+= (x² + 7x + 10)(x² + 7x + 12) - 15
+= (y + 10)(y + 12) - 15   (Let y = x² + 7x)
+= y² + 12y + 10y + 120 - 15
+= y² + 22y + 105
+= y² + 15y + 7y + 105
+= y(y + 15) + 7(y + 15)
+= (y + 15)(y + 7)
+= (x² + 7x + 15)(x² + 7x + 7)   (∵ y = x² + 7x)
+
+Example 14: Factorize: (x - 2)(x + 2)(x + 1)(x - 4) + 2x²
+
+Solution: (x - 2)(x + 2)(x + 1)(x - 4) + 2x²
+= [(x - 2)(x + 2)][(x + 1)(x - 4)] + 2x²   [∵ (-2) × 2 = 1 × (-4)]
+= (x² - 2²)(x² - 4x + x - 4) + 2x²
+= (x² - 4)(x² - 3x - 4) + 2x²
+= y(y - 3x) + 2x²   (Let y = x² - 4)
+= y² - 3xy + 2x²
+= y² - 2xy - xy + 2x²
+= y(y - 2x) - x(y - 2x)
+= (y - 2x)(y - x)
+= (x² - 4 - 2x)(x² - 4 - x)   (∵ y = x² - 4)
+= (x² - 2x - 4)(x² - x - 4)
+
+----------------------------------------------------------------
+Type - IV: Factorization of the expression of the types
+a³ + 3a²b + 3ab² + b³
+a³ - 3a²b + 3ab² - b³
+----------------------------------------------------------------
+
+Factorization of such types of expressions is explained in the following examples:
+
+Example 15: Factorize: 8x³ + 60x² + 150x + 125
+
+Solution: 8x³ + 60x² + 150x + 125
+= (2x)³ + 3(2x)²(5) + 3(2x)(5)² + (5)³
+= (2x + 5)³
+= (2x + 5)(2x + 5)(2x + 5)
+
+Example 16: Factorize: x³ - 18x² + 108x - 216
+
+Solution: x³ - 18x² + 108x - 216
+= (x)³ - 3(x)²(6) + 3(x)(6)² - (6)³
+= (x - 6)³
+= (x - 6)(x - 6)(x - 6)
+
+Remember!
+(a + b)³ = a³ + 3a²b + 3ab² + b³
+(a - b)³ = a³ - 3a²b + 3ab² - b³
+
+----------------------------------------------------------------
+Type - V: Factorization of the expression of the types a³ ± b³
+----------------------------------------------------------------
+
+The expression a³ + b³ is a sum of cubes and it can be factorized using the following identity:
+a³ + b³ = (a + b)(a² - ab + b²)
+
+The expression a³ - b³ is a difference of cubes and it can be factorized using the following identity:
+a³ - b³ = (a - b)(a² + ab + b²)
+
+Example 17: Factorize: 8x³ + 27
+
+Solution: 8x³ + 27
+= (2x)³ + (3)³
+= (2x + 3)[(2x)² - (2x)(3) + (3)²]
+= (2x + 3)(4x² - 6x + 9)
+
+Example 18: Factorize: x³ - 27y³
+
+Solution: x³ - 27y³
+= (x)³ - (3y)³
+= (x - 3y)[(x)² + (x)(3y) + (3y)²]
+= (x - 3y)(x² + 3xy + 9y²)
+
+Do you know?
+(a + b)² ≠ a² + b²
+(a - b)² ≠ a² - b²
+(a + b)³ ≠ a³ + b³
+(a - b)³ ≠ a³ - b³
+
+----------------------------------------------------------------
+EXERCISE 4.2
+----------------------------------------------------------------
+
+1. Factorize each of the following expressions:
+(i) 4x⁴ + 81y⁴
+(ii) a⁴ + 64b⁴
+(iii) x⁴ + 4x² + 16
+(iv) x⁴ - 14x² + 1
+(v) x⁴ - 30x²y² + 9y⁴
+(vi) x⁴ - 7x²y² + y⁴
+
+2. Factorize each of the following expressions:
+(i) (x + 1)(x + 2)(x + 3)(x + 4) + 1
+(ii) (x + 2)(x - 7)(x - 4)(x - 1) + 17
+(iii) (2x² + 7x + 3)(2x² + 7x + 5) + 1
+(iv) (3x² + 5x + 3)(3x² + 5x + 5) - 3
+(v) (x + 1)(x + 2)(x + 3)(x + 6) - 3x²
+(vi) (x + 1)(x - 1)(x + 2)(x - 2) - 16x²
+
+3. Factorize:
+(i) 8x³ + 12x² + 6x + 1
+(ii) 27a³ + 108a²b + 144ab² + 64b³
+(iii) x³ + 18x²y + 108xy² + 216y³
+(iv) 8x³ - 125y³ + 150xy² - 60x²y
+
+4. Factorize:
+(i) 125a³ - 1
+(ii) 64x³ + 125
+(iii) x⁶ - 27
+(iv) 1000a³ + 1
+(v) 343x³ + 216
+(vi) 27 - 512y³
+
+----------------------------------------------------------------
+4.3 Highest Common Factor (HCF) and Least Common Multiple (LCM) of Algebraic Expressions
+----------------------------------------------------------------
+
+4.3.1 Highest Common Factor (HCF)
+
+The HCF of two or more algebraic expressions refers to the greatest algebraic expression which divides them without leaving a remainder.
+
+We can find HCF of given expressions by the following two methods:
+(a) By factorization
+(b) By division
+
+(a) HCF by Factorization Method
+
+Example 19: Find the HCF of 6x²y, 9xy²
+
+Solution: 
+6x²y = 2 × 3 × x × x × y
+9xy² = 3 × 3 × x × y × y
+∴ HCF = 3 × x × y = 3xy
+(Product of common factors)
+
+Example 20: Find the HCF by factorization method x³ - 27, x² + 6x - 27, x² - 9
+(Note: Source text has a typo in statement calling it x², but working clearly shows x³)
+
+Solution: 
+x³ - 27 = x³ - 3³
+= (x - 3)[(x)² + (3)(x) + (3)²]
+= (x - 3)(x² + 3x + 9)
+
+x² + 6x - 27 = x² + 9x - 3x - 27
+= x(x + 9) - 3(x + 9)
+= (x + 9)(x - 3)
+
+x² - 9 = x² - 3²
+= (x - 3)(x + 3)
+
+Hence, HCF = x - 3
+
+(b) HCF by Division Method
+
+Example 21: Find HCF of 6x³ - 17x² - 5x + 6 and 6x³ - 5x² - 3x + 2 by using division method.
+
+Solution:
+[Division Process]
+Dividing (6x³ - 5x² - 3x + 2) by (6x³ - 17x² - 5x + 6)
+Quotient = 1
+Remainder = 12x² + 2x - 4
+
+Here, 12x² + 2x - 4 = 2(6x² + x - 2)
+2 is not common in both the given polynomials, so we ignore it and consider only 6x² + x - 2.
+
+Dividing (6x³ - 17x² - 5x + 6) by (6x² + x - 2)
+Quotient = x - 3
+Remainder = 0
+
+Hence, HCF = 6x² + x - 2
+
+4.3.2 Least Common Multiple (LCM)
+
+The LCM of two or more algebraic expressions is the smallest expression that is divisible by each of the given expressions.
+
+To find the LCM by factorization, we use the formula.
+LCM = Common factors × Non-common factors
+
+Example 22: Find the LCM of 4x²y, 8x³y².
+
+Solution:
+4x²y = 2 × 2 × x × x × y
+8x³y² = 2 × 2 × 2 × x × x × x × y × y
+Common factors = 2 × 2 × x × x × y = 4x²y
+Non-common factors = 2 × x × y = 2xy
+
+LCM = Common factors × Non-common factors
+= 4x²y × 2xy = 8x³y²
+
+Example 23: Find the LCM of the polynomials x² - 3x + 2, x² - 1 and x² - 5x + 4.
+
+Solution: 
+As x² - 3x + 2 = x² - 2x - x + 2
+= x(x - 2) - 1(x - 2)
+= (x - 2)(x - 1)
+
+And x² - 1 = (x - 1)(x + 1)
+
+x² - 5x + 4 = x² - 4x - x + 4
+= x(x - 4) - 1(x - 4)
+= (x - 4)(x - 1)
+
+Common factors = x - 1
+Non-common factors = (x + 1)(x - 2)(x - 4)
+
+LCM = Common factors × Non-common factors
+= (x - 1) × (x + 1)(x - 2)(x - 4)
+= (x - 1)(x + 1)(x - 2)(x - 4)
+
+4.3.3 Relationship Between LCM and HCF
+
+The relationship between LCM and HCF can be expressed as follows:
+LCM × HCF = p(x) × q(x)
+
+Where, p(x) = 1st polynomial
+q(x) = 2nd polynomial
+
+Example 24: LCM and HCF of two polynomials are x³ - 10x² + 11x + 70 and x - 7. If one of the polynomials is x² - 12x + 35, find the other polynomial.
+
+Solution: Given that: LCM = x³ - 10x² + 11x + 70
+HCF = x - 7
+p(x) = x² - 12x + 35
+
+As we know that: q(x) = (LCM × HCF) / p(x)
+= ((x³ - 10x² + 11x + 70)(x - 7)) / (x² - 12x + 35)
+
+[Division Process of (x³ - 10x² + 11x + 70) / (x² - 12x + 35)]
+Quotient = x + 2
+
+So, q(x) = (x + 2)(x - 7)
+= x² - 7x + 2x - 14
+= x² - 5x - 14
+
+Example 25: The LCM of x²y + xy² and x² + xy is xy(x + y). Find the HCF.
+
+Solution: Given that: LCM = xy(x + y)
+HCF = ?
+1st polynomial = x²y + xy²
+2nd polynomial = x² + xy
+
+As we know that: LCM × HCF = Product of two polynomials
+HCF = (Product of two polynomials) / LCM
+= ((x²y + xy²)(x² + xy)) / (xy(x + y))
+= (xy(x + y)x(x + y)) / (xy(x + y))
+= x(x + y)
+
+----------------------------------------------------------------
+EXERCISE 4.3
+----------------------------------------------------------------
+
+1. Find HCF by factorization method.
+(i) 21x²y, 35xy²
+(ii) 4x² - 9y², 2x² - 3xy
+(iii) x³ - 1, x² + x + 1
+(iv) a³ + 2a² - 3a, 2a³ + 5a² - 3a
+(v) t² - 3t - 4, t² + 5t + 4, t² - 1
+(vi) x² + 15x + 56, x² + 5x - 24, x² + 8x
+
+2. Find HCF of the following expressions by using division method:
+(i) 27x³ + 9x² - 3x - 10, 3x - 2
+(ii) x³ - 9x² + 23x - 15, x² - 4x + 3
+(iii) 2x³ + 2x² + 2x + 2, 6x³ + 12x² + 6x + 12
+(iv) 2x³ - 4x² - 16x, x³ - 4x, 3x² - 6x
+
+3. Find LCM of the following expressions by using prime factorization method.
+(i) 2a²b, 4ab², 6ab
+(ii) x² + x, x³ + x²
+(iii) a² - 4a + 4, a² - 2a
+(iv) x⁴ - 16, x³ - 4x
+(v) 16 - 4x², x² + x - 6, 4 - x²
+
+4. The HCF of two polynomials is y - 7 and their LCM is y³ - 10y² + 11y + 70. If one of the polynomials is y² - 5y - 14, find the other.
+
+5. The LCM and HCF of two polynomial p(x) and q(x) are 36x³(x + a)(x³ - a³) and x²(x - a) respectively. If p(x) = 4x²(x² - a²), find q(x).
+
+6. The HCF and LCM of two polynomials is (x + a) and 12x²(x + a)(x² - a²) respectively. Find the product of the two polynomials.
+
+----------------------------------------------------------------
+4.4 Square Root of an Algebraic Expression
+----------------------------------------------------------------
+
+The square root of an algebraic expression refers to a value that, when multiplied by itself, gives the original expression. Just like finding the square root of a number, taking the square root of an algebraic expression involves determining what expression, when squared, results in the given expression.
+
+For example, square root of 4a² is ± 2a because 2a × 2a = 4a² and (-2a) × (-2a) = 4a². There are following two methods for finding the square root of an algebraic expression:
+(a) By factorization method
+(b) By division method
+
+(a) Square Root by Factorization Method
+
+Example 26: Find the square root of the expression 36x⁴ - 36x² + 9
+
+Solution:
+36x⁴ - 36x² + 9
+= 9(4x⁴ - 4x² + 1)
+= 9[(2x²)² - 2(2x²)(1) + (1)²]
+= 3²(2x² - 1)²
+
+Taking square root on both sides
+√(36x⁴ - 36x² + 9) = √(3²(2x² - 1)²)
+= √(3²) · √((2x² - 1)²)
+= ± 3(2x² - 1)
+
+(b) Square Root by Division Method
+
+When the degree of the polynomial is higher, division method in finding the square root is very useful.
+
+Example 27: Find the square root of the polynomial x⁴ - 12x³ + 42x² - 36x + 9.
+
+Solution: Multiply x² by x² to get x⁴
+Multiply the quotient (x²) by 2, so we get 2x². By dividing -12x³ by 2x², we get -6x. By continuing in this way, we get the remainder.
+
+[Division Process]
+1. Divisor: x² -> Quotient term: x²
+   Subtract: x⁴
+2. Divisor: 2x² - 6x -> Quotient term: -6x
+   Subtract: -12x³ + 36x²
+3. Divisor: 2x² - 12x + 3 -> Quotient term: +3
+   Subtract: 6x² - 36x + 9
+Remainder = 0
+
+Hence, square root of x⁴ - 12x³ + 42x² - 36x + 9 is ±(x² - 6x + 3)
+
+4.4.1 Real World Problems of Factorization
+
+In this section, we will apply the concept of factorization of quadratic and cubic algebraic expressions to real world problems such as engineering, physics and finance.
+
+Example 28: Cost function for producing a part is modeled by:
+C(x) = 5x² - 25x + 30
+Where x is the width of the component and C(x) is the cost. Find the value of x where C(x) is minimum.
+
+Solution:
+C(x) = 5x² - 25x + 30
+= 5(x² - 5x + 6)
+= 5(x² - 2x - 3x + 6)
+= 5[x(x - 2) - 3(x - 2)]
+= 5(x - 2)(x - 3)
+
+Thus, the minimum cost occurs when x = 2 or x = 3.
+
+Example 29: The potential energy U(x) of a particle moving in a cubic potential is expressed as:
+U(x) = x³ - 6x² + 12x - 8
+Factorize the expression to find the points where the energy in minimized.
+
+Solution: U(x) = x³ - 6x² + 12x - 8
+= (x)³ - 3(x)²(2) + 3(x)(2)² - (2)³
+= (x - 2)³
+= (x - 2)(x - 2)(x - 2)
+
+The factorized form of the potential energy function shows that the energy is minimized at x = 2.
+
+Example 30: A company's profit P(x) is modeled by the quadratic equation:
+P(x) = -5x² + 50x - 120
+Where x represents the number of units produced and P(x) represents the profit in dollars. Find how many units should be produced to maximize profit.
+
+Solution: P(x) = -5x² + 50x - 120
+= -5(x² - 10x + 24)
+= -5[x² - 4x - 6x + 24]
+= -5[x(x - 4) - 6(x - 4)]
+= -5(x - 4)(x - 6)
+
+We can see that profit will be 0 when x = 4 or x = 6. As coefficients of x² is negative, the maximum profit occurs at the midpoint between 4 and 6.
+
+Which is: x = (4 + 6) / 2 = 10 / 2 = 5
+
+Thus, the company should produce 5 units to maximize profit.
+
+----------------------------------------------------------------
+EXERCISE 4.4
+----------------------------------------------------------------
+
+1. Find the square root of the following polynomials by factorization method:
+(i) x² - 8x + 16
+(ii) 9x² + 12x + 4
+(iii) 36a² + 84a + 49
+(iv) 64y² - 32y + 4
+(v) 200t² - 120t + 18
+(vi) 40x² + 120x + 90
+
+2. Find the square root of the following polynomials by division method:
+(i) 4x⁴ - 28x³ + 37x² + 42x + 9
+(ii) 121x⁴ - 198x³ - 183x² + 216x + 144
+(iii) x⁴ - 10x³y + 27x²y² - 10xy³ + y⁴
+(iv) 4x⁴ - 12x³ + 37x² - 42x + 49
+
+3. An investor's return R(x) in rupees after investing x thousand rupees is given by quadratic expression:
+R(x) = -x² + 6x - 8
+Factorize the expression and find the investment levels that result in zero return.
+
+4. A company's profit P(x) in rupees from selling x units of a product is modeled by the cubic expression:
+P(x) = x³ - 15x² + 75x - 125
+Find the break-even point(s), where the profit is zero.
+
+5. The potential energy V(x) in an electric field varies as a cubic function of distance x, given by:
+V(x) = 2x³ - 6x² + 4x
+Determine where the potential energy is zero.
+
+6. In structural engineering, the deflection Y(x) of a beam is given by:
+Y(x) = 2x² - 8x + 6
+This equation gives the vertical deflection at any point x along the beam. Find the points of zero deflection.
+
+================================================================
+REVIEW EXERCISE 4
+================================================================
+
+1. Four options are given against each statement. Encircle the correct option.
+
+i. The factorization of 12x + 36 is:
+(a) 12(x + 3)
+(b) 12(3x)
+(c) 12(3x + 1)
+(d) x(12 + 36x)
+
+ii. The factors of 4x² - 12x + 9 are:
+(a) (2x + 3)²
+(b) (2x - 3)²
+(c) (2x - 3)(2x + 3)
+(d) (2 + 3x)(2 - 3x)²
+
+iii. The HCF of a³b³ and ab² is:
+(a) a³b³
+(b) ab²
+(c) a⁴b⁵
+(d) a²b
+
+iv. The LCM of 16x², 4x and 30xy is:
+(a) 480x³y
+(b) 240xy
+(c) 240x²y
+(d) 120x⁴y
+
+v. Product of LCM and HCF = ____ of two polynomials.
+(a) sum
+(b) difference
+(c) product
+(d) quotient
+
+vi. The square root of x² - 6x + 9 is:
+(a) ± (x - 3)
+(b) ± (x + 3)
+(c) x - 3
+(d) x + 3
+
+vii. The LCM of (a - b)² and (a - b)⁴ is:
+(a) (a - b)²
+(b) (a - b)³
+(c) (a - b)⁴
+(d) (a - b)⁶
+
+viii. Factorization of x³ + 3x² + 3x + 1 is:
+(a) (x + 1)³
+(b) (x - 1)³
+(c) (x + 1)(x² + x + 1)
+(d) (x - 1)(x² - x + 1)
+
+ix. Cubic polynomial has degree:
+(a) 1
+(b) 2
+(c) 3
+(d) 4
+
+x. One of the factors of x³ - 27 is:
+(a) x - 3
+(b) x + 3
+(c) x² - 3x + 9
+(d) Both a and c
+
+2. Factorize the following expressions:
+(i) 4x³ + 18x² - 12x
+(ii) x³ + 64y³
+(iii) x³y³ - 8
+(iv) -x² - 23x - 60
+(v) 2x² + 7x + 3
+(vi) x⁴ + 64
+(vii) x⁴ + 2x² + 9
+(viii) (x + 3)(x + 4)(x + 5)(x + 6) - 360
+(ix) (x² + 6x + 3)(x² + 6x - 9) + 36
+
+3. Find LCM and HCF:
+(i) 4x³ + 12x², 8x² + 16x
+(ii) x³ + 3x² - 4x, x² - 4x + 3
+(iii) x² + 8x + 16, x² - 16
+(iv) x³ - 9x, x² - x - 6
+
+4. Find square root by factorization and division method of the expression 16x⁴ + 8x² + 1.
+
+5. Huria is analyzing the total cost of her loan, modeled by the expression C(x) = x² - 8x + 15, where x represents the number of years. What is the optimal repayment period for Huria's loan?
+
+
+
+================================================================
+End of UNIT 4: ALGEBRAIC EXPRESSIONS AND FACTORIZATION
+================================================================
+
+
+
+
+
+
+
+
+
+
+================================================================
+UNIT 5: LINEAR EQUATIONS AND INEQUALITIES
+================================================================
+
+STUDENTS' LEARNING OUTCOMES
+----------------------------------------------------------------
+At the end of the unit, the students will be able to:
+
+- Solve linear equations and inequalities with rational coefficients and represent the solution set on a real line.
+- Solve two linear inequalities with two unknowns simultaneously.
+- Interpret and identify regions in plane bounded by two linear inequalities in two unknowns.
+- Find maximum and minimum values of a function using points in the feasible solution.
+
+================================================================
+INTRODUCTION
+================================================================
+
+Linear equations and inequalities are widely used in various fields to model and solve real-world problems. They help in understanding relationships between variables and making decisions. In this unit, our main goal will be to optimize (maximum or minimum) a quantity under consideration subject to certain constraint restrictions.
+
+----------------------------------------------------------------
+5.1 Linear Equation
+----------------------------------------------------------------
+
+An equation of the form ax + b = 0 where ‘a’ and ‘b’ are constants, a ≠ 0 and ‘x’ is a variable, is called a linear equation in one variable. In linear equation, the highest power of the variable is always 1.
+
+Remember!
+ax + b = 0 and a ≠ 0 is also called the general form of linear equation in one variable.
+
+5.1.1 Solving a Linear Equation in One Variable
+
+Solving a linear equation in one variable means finding the value of the variable that makes the equation true. To solve the equation, the goal is to isolate the variable on one side of the equation and determine its value.
+
+Steps to Solve a Linear Equation in One Variable
+
+Simplify Both Sides (if necessary)
+- Combine like terms on each side of the equation.
+- Simplify expressions, including distributing any multiplication over parentheses.
+
+Isolate the Variable Term
+- Move all terms containing the variable to one side of the equation and all constant terms numbers to the other side. We can do this by adding or subtracting terms from both sides of the equation.
+
+Solve for the Variable
+- Once the variable term is isolated, solve for the variable by dividing or multiplying both sides of the equation by the co-efficient of the variable.
+
+Check Your Solution
+- Substitute the solution into the original equation to ensure that solution is correct.
+
+Example 1: Solve the following equations and represent their solutions on real line:
+(i) 3x - 5 = 7
+(ii) (x - 2)/5 - (x - 4)/2 = 2
+
+Solution:
+
+(i) 3x - 5 = 7
+3x - 5 + 5 = 7 + 5
+3x = 12
+3x/x = 12/3   (Note: transcribing exact source text, mathematically 3x/3 = 12/3)
+x = 4
+
+Check: Substitute x = 4 into the original equation
+3(4) - 5 = 7
+12 - 5 = 7
+7 = 7
+
+So, x = 4 is a solution because it makes the original equation true.
+
+Representation of the solution on a number line:
+-4  -3  -2  -1  0  1  2  3  4  5
+Fig. 5.1
+
+(ii) (x - 2)/5 - (x - 4)/2 = 2
+
+[2(x - 2) - 5(x - 4)] / 10 = 2
+(2x - 4 - 5x + 20) / 10 = 2
+(-3x + 16) / 10 = 2
+
+Remember!
+We check the solution after solving linear equation to ensure the accuracy of our work.
+
+[(-3x + 16) / 10] × 10 = 2 × 10
+-3x + 16 = 20
+-3x + 16 - 16 = 20 - 16
+-3x = 4
+x = -4/3
+
+Check: Substitute x = -4/3 into the original equation
+[(-4/3) - 2] / 5 - [(-4/3) - 4] / 2 = 2
+=> [(-4 - 6)/3] / 5 - [(-4 - 12)/3] / 2 = 2
+=> -10/15 - (-16)/6 = 2
+=> -2/3 + 8/3 = 2
+=> (-2 + 8)/3 = 2
+=> 6/3 = 2
+=> 2 = 2
+
+So, x = -4/3 is the solution of given equation.
+
+Representation of the solution on a number line:
+-4      -4/3
+Fig. 5.2
+
+----------------------------------------------------------------
+5.2 Linear Inequalities
+----------------------------------------------------------------
+
+Inequalities are expressed by the following four symbols:
+> (greater than), < (less than), ≥ (greater than or equal to), ≤ (less than or equal to)
+
+For example,
+(i) ax < b 
+(ii) ax + b ≥ c 
+(iii) ax + by > c 
+(iv) ax + by ≤ c
+are inequalities. Inequalities (i) and (ii) are in one variable while inequalities (iii) and (iv) are in two variables. The following operations will not affect the order of inequality while changing it to simpler equivalent form:
+
+(i) Adding or subtracting a constant to each side of it.
+ii) Multiplying or dividing each side by a positive constant.
+
+Do you know?
+The order of an inequality is changed by multiplying or dividing each side by a negative constant.
+
+Example 2: Find solution of (2/3)x - 1 < 0 and also represent it on a real line.
+
+Solution:
+(2/3)x - 1 < 0 ... (i)
+=> (2/3)x < 1
+=> 2x < 3
+=> x < 3/2
+
+It means that all real numbers less than 3/2 are in the solution of (i)
+Thus, the interval (-∞, 3/2) or -∞ < x < 3/2 is the solution of the given inequality which is shown in figure 5.3
+
+-5  -4  -3  -2  -1  0  1  2  3  4  5
+Fig. 5.3 [3/2]
+
+We conclude that the solution of an inequality consists of all solutions of the inequality.
+
+Following are the inequalities and their solutions on a real line:
+
+Inequality | Solution                  | Representation on real line
+-----------|---------------------------|----------------------------
+x > 1      | (1, ∞) or 1 < x < ∞       | (Open circle at 1, arrow right)
+x < 1      | (-∞, 1) or -∞ < x < 1     | (Open circle at 1, arrow left)
+x ≥ 1      | [1, ∞) or 1 ≤ x < ∞       | (Closed circle at 1, arrow right)
+x ≤ 1      | (-∞, 1] or -∞ < x ≤ 1     | (Closed circle at 1, arrow left)
+
+5.2.1 Solution of a Linear Inequality in Two Variables
+
+Generally, a linear inequality in two variables x and y can be one of the following forms:
+ax + by < c;   ax + by > c;   ax + by ≤ c;   ax + by ≥ c
+Where a, b, c are constants and a, b are not both zero.
+
+We know that the graph of linear equation of the form ax + by = c is a line which divides the plane into two disjoint regions as stated below:
+(i) The set of ordered pairs (x, y) such that ax + by < c
+(ii) The set of ordered pairs (x, y) such that ax + by > c
+
+The regions (i) and (ii) are called half planes and the line ax + by = c is called the boundary of each half plane.
+Note that a vertical line divides the plane into left and right half planes while a non-vertical line divides the plane into upper and lower half planes.
+
+Remember:
+A solution of a linear inequality in x and y is an ordered pair of numbers which satisfies the inequality.
+For example, the ordered pair (1, 1) is a solution of the inequality x + 2y < 6 because 1 + 2(1) = 3 < 6 which is true.
+There are infinitely many ordered pairs that satisfy the inequality x + 2y < 6, so its graph will be a half plane.
+Note that the linear equation ax + by = c is called "associated or corresponding equation" of each of the above-mentioned inequalities.
+
+Procedure for Graphing a linear Inequality in two Variables
+(i) The corresponding equation of the inequality is first graphed by using 'dashes' if the inequality involves the symbols > or < and a solid line is drawn if the inequality involves the symbols ≥ or ≤.
+(ii) A test point (not on the graph of the corresponding equation) is chosen which determines on which side of the boundary line the half plane line.
+
+Example 3: Solve the inequality x + 2y < 6.
+
+Solution: The associated equation of the inequality
+x + 2y < 6  ... (i)
+is x + 2y = 6 ... (ii)
+
+The line (ii) intersects the x-axis and y-axis at (6, 0) and (0, 3) respectively. As no point of the line (ii) is a solution of the inequality (i), so the graph of the line (ii) is shown by using dashes. We take O(0, 0) as a test point because it is not on the line (ii).
+
+Substituting x = 0, y = 0 in the expression x + 2y gives 0 - 2(0) = 0 < 6. So, the point (0, 0) satisfies the inequality (i). Any other point below the line (ii) satisfies the inequality (i), that is all points in the half plane containing the point (0, 0) satisfy the inequality (i).
+
+Thus, the graph of the solution set of inequality (i) is a region on lies the origin-side of the line (ii), that is, the region below the line (ii). A portion of the open half plane below the line (ii) is shown as shaded region in figure 5.4(a)
+
+Note:
+All points above the dashed line satisfy the inequality x + 2y > 6 so on (iii).
+A portion of the open half plane above the line (ii) is shown by shading in figure 5.4(b).
+
+Do you know?
+A test point is a point selected to determine which side of the boundary line represents the solution region for an inequality. Usually, we take origin (0,0) as a test point.
+- If the inequality holds true with the test point, the region containing this point is part of the solution.
+- If the inequality is false, the opposite region is the solution region.
+
+[Diagram Fig. 5.4 (a)]
+x + 2y = 6
+(0, 3)
+(6, 0)
+X', X, Y'
+
+[Diagram Fig. 5.4 (b)]
+x + 2y = 6
+(0,3)
+(6,0)
+
+Note: 1. The graph of the inequality x + 2y ≤ 6 ...(iv) includes the graph of the line (ii).
+The open half-plane below the line (ii) including the graph of the line (ii) is the graph of the inequality (iv). A portion of the graph of the inequality (iv) is shown by shading in fig. 5.4 (c).
+
+Note: 2 All points on the line (ii) and above the line (ii) satisfy the inequality x + 2y ≥ 6 ... (v). This means that the solution set of the inequality (v) consists of all points above the line (ii) and all points on the lines (ii). The graph of the inequality (v) is partially shown as shaded region in fig. 5.4 (d).
+
+Note: 3 The graphs of x + 2y ≤ 6 and x + 2y ≥ 6 are closed half planes.
+
+Example 4: Solve the following linear inequalities in xy-plane:
+(i) 2x ≥ -3
+(ii) y ≤ 2
+
+Solution: 
+(i) The inequality 2x ≥ -3 in xy-plane is considered as 2x + 0y ≥ -3 and its solution set consists of all point (x, y)
+such that x, y ∈ R and x ≥ -3/2
+The corresponding equation of the given inequality is 2x = -3 ...(a)
+which is a vertical line (parallel to the y-axis) and its graph is drawn in figure 5.5(a).
+Thus, the graph of 2x ≥ -3 consists of boundary line and the open half-plane to the right of the line (a).
+
+(ii) The associated equation of the inequality
+y ≤ 2 is y = 2
+
+[Diagram Fig. 5.4 (c)]
+x + 2y = 6
+(0,3)
+(6,0)
+X', Y'
+
+[Diagram Fig. 5.4 (d)]
+x + 2y = 6
+(0,3)
+(6,0)
+X', Y', Y
+
+[Diagram Fig. 5.5 (a)]
+2x = -3
+0
+
+which is a horizontal line (parallel to the x-axis) and its graph is shown in figure 5.5 (b). Here the solution set of the inequality y ≤ 2 is the open half plane below the boundary line y = 2. Thus, the graph of y ≤ 2 consists of the boundary line and the closed half plane below it.
+
+5.2.2 Solution of Two Linear Inequalities in Two Variables
+
+[Diagram Fig. 5.5 (b)]
+y = 2
+X', 0, X
+Y', Y
+
+The graph of a system of linear inequalities consists of the set of all ordered pairs (x, y) in the xy-plane which simultaneously satisfies all the inequalities in the system. To find the graph of such a system, we draw the graph of each inequality in the system on the same coordinate axes and then take intersection of all the graphs. The common region so obtained is called the solution region for the system of inequalities.
+
+Example 5: Find the solution region by drawing the graph of the system of inequalities
+x - 2y ≤ 6
+2x + y ≥ 2
+
+Solution: 
+x - 2y ≤ 6 ... (i)
+2x + y ≥ 2 ... (ii)
+
+The associated equation of (i) is
+x - 2y = 6 ... (iii)
+
+For x-intercept, put y = 0 in (iii), we get
+x - 2(0) = 6
+x - 0 = 6
+=> x = 6, so the point is (6, 0)
+
+For y-intercept, put x = 0 in (iii), we get
+0 - 2y = 6
+=> -2y = 6
+=> y = 6 / -2 = -3, so the point is (0, -3)
+
+The graph of the line x - 2y = 6 is drawn by joining the points (6, 0) and (0, -3). The point (0, 0) satisfies the inequality x - 2y ≤ 6 because 0 - 2(0) = 0 < 6. Thus, the graph of x - 2y ≤ 6 is the upper half-plane including the graph of the line x - 2y = 6. The closed half-plane is partially shown by shading in figure 5.6 (a).
+
+[Diagram Fig. 5.6 (a)]
+
+The associated equation of (ii) is
+2x + y = 2 ... (iv)
+
+For x-intercept, put y = 0 in (iv), we get
+2x + 0 = 2
+=> 2x = 2
+=> x = 1, so the point is (1, 0)
+
+For y-intercept, put x = 0 in (iv), we get
+2(0) + y = 2
+=> y = 2, so the point is (0, 2)
+
+We draw the graph of the line 2x + y = 2 joining the points (1, 0) and (0, 2). The point (0, 0) does not satisfy the inequality 2x + y ≥ 2 because 2(0) + 0 = 0 ≠ 2. Thus, the graph of the inequality 2x + y ≥ 2 is the closed half-plane not on the origin-side of the line 2x + y = 2 and partially shown by shading in figure 5.6 (b).
+
+The solution region of the given system of inequalities is the intersection of the graphs indicated in figures 5.6 (a) and 5.6 (b) is shown as shaded region in figure 5.6 (c).
+
+[Diagram Fig. 5.6 (b)]
+2x + y = 2
+(0, 2)
+(1, 0)
+
+[Diagram Fig. 5.6 (c)]
+2x + y = 2
+(0, 2)
+(6, 0)
+X', X
+x - 2y = 6
+
+----------------------------------------------------------------
+EXERCISE 5.1
+----------------------------------------------------------------
+
+1. Solve and represent the solution on a real line.
+(i) 12x + 30 = -6
+(ii) x/3 + 6 = -12
+(iii) x/2 - 3x/4 = 1/12
+(iv) 2 = 7(2x + 4) + 12x
+(v) (2x - 1)/3 - 3x/4 = 5/6
+(vi) -5x/10 = 9 - (10/5)x
+
+2. Solve each inequality and represent the solution on a real line.
+(i) x - 6 ≤ -2
+(ii) -9 > -16 + x
+(iii) 3 + 2x ≥ 3
+(iv) 6(x + 10) ≤ 0
+(v) (5/3)x - 3/4 < -1/12
+(vi) (1/4)x - 1/2 ≤ -1 + (1/2)x
+
+3. Shade the solution region for the following linear inequalities in xy-plane:
+(i) 2x + y ≤ 6
+(ii) 3x + 7y ≥ 21
+(iii) 3x - 2y ≥ 6
+(iv) 5x - 4y ≤ 20
+(v) 2x + 1 ≥ 0
+(vi) 3y - 4 ≤ 0
+
+4. Indicate the solution region of the following linear inequalities by shading:
+(i) 2x - 3y ≤ 6, 2x + 3y ≤ 12
+(ii) x + y ≥ 5, -y + x ≤ 1
+(iii) 3x + 7y ≥ 21, x - y ≤ 2
+(iv) 4x - 3y ≤ 12, x ≥ -3/2
+(v) 3x + 7y ≥ 21, y ≤ 4
+(vi) 5x + 7y ≤ 35, x - 2y ≤ 2
+
+----------------------------------------------------------------
+5.3 Feasible Solution
+----------------------------------------------------------------
+
+While tackling a certain problem from everyday life each linear inequality concerning the problem is named as problem constraint. The system of linear inequalities involved in the problem concerned is called problem constraints. The variables used in the system of linear inequalities relating to the problems of everyday life are non-negative and are called non-negative constraints. These non-negative constraints play an important role for taking decision. So, these variables are called decision variables. A region which is restricted to the first quadrant is referred to as a feasible region for the set of given constraints. Each point of the feasible region is called a feasible solution of the system of linear inequalities (or for the set of a given constraints).
+
+Example 6: Shade the feasible region and find the corner points for the following system of inequalities (or subject to the following constraints).
+x - y ≤ 3
+x + 2y ≤ 6,   x ≥ 0,   y ≥ 0
+
+Solution: The associated equations for the inequalities
+x - y ≤ 3 ... (i) and x + 2y ≤ 6 ... (ii)
+are x - y = 3 ... (iii) and x + 2y = 6 ... (iv)
+
+As the points (3,0) and (0,-3) are on the line (iii), so the graph of x - y = 3 is drawn by joining the points (3,0) and (0,-3) by solid line.
+
+[Diagram Fig. 5.7 (a)]
+x + 2y = 6
+(0, -3)
+(4, 1)
+(6, 0)
+X', 0, (3, 0), (0, -3)
+X, Y', Y
+
+Similarly, line (iv) is graphed by joining the points (6, 0) and (0, 3) by solid line. For x = 0 and y = 0, we have;
+0 - 0 = 0 < 3 and 0 + 2(0) = 0 < 6
+So, both the closed half-planes are on the origin sides of the lines (iii) and (iv). The intersection of these closed half-planes is partially displayed as shaded region in fig. 5.7(a).
+
+The graph of y ≥ 0, will be the closed upper half plane. The intersection of graph shown in figure 5.7(a) and closed upper half plane is partially displayed as shaded region in figure 5.7(b).
+
+The graph of x ≥ 0 will be closed right half plane. The intersection of the graph shown in fig. 5.7(a) and closed right half plane is graphed in fig. 5.7(c).
+
+Finally, the graph of the given system of linear inequalities is displayed in figure 5.7 (d) which is the feasible region for the given system of linear inequalities. The points (0,0), (3,0), (4,1) and (0,3) are corner points of the feasible region.
+
+Remember!
+A point of a solution region where two of its boundary lines intersect, is called a corner point or vertex of the solution region.
+
+[Diagram Fig. 5.7 (b)]
+x + 2y = 6
+(0, 3)
+x - y = 3
+(3, 0)
+(6, 0)
+(0, -3)
+X', X, Y', Y
+
+[Diagram Fig. 5.7 (c)]
+x + 2y = 6
+(0, 3)
+x - y = 3
+(3, 0) (6, 0)
+(0, -3)
+
+[Diagram Fig. 5.7 (d)]
+x + 2y = 6
+(0, 3)
+(4,1)
+x - y = 3
+(3, 0)
+(6, 0)
+(0, -3)
+X', X, Y', Y
+
+5.3.2 Maximum and Minimum Values of a Function in the Feasible Solution
+
+A function which is to be maximized or minimized is called an objective function. Note that there are infinitely many feasible solutions in the feasible region. The feasible solution which maximizes or minimizes the objective function is called the optimal solution.
+
+Procedure for determining optimal solution
+(i) Graph the solution set of linear inequality constraints to determine feasible region.
+(ii) Find the corner points of the feasible region.
+(iii) Evaluate the objective function at each corner point to find the optimal solution.
+
+Example 7: Find the maximum and minimum
+values of the function defined as:
+f(x, y) = 2x + 3y
+subject to the constraints;
+x - y ≤ 2
+x + y ≤ 4
+x ≥ 0, y ≥ 0
+
+Solution: 
+x - y ≤ 2 ... (i)
+x + y ≤ 4 ... (ii)
+
+The associated equation of (i) is
+x - y = 2
+x-intercept and y-intercept of x - y = 2 are (2, 0) and (0, -2) respectively. The graph of the line x - y = 2 is drawn by joining the points (2, 0) and (0, -2). The point (0,0) satisfies the inequality x - y ≤ 2 because 0 - 0 = 0 < 2. Thus, the graph of x - y ≤ 2 is the upper half-plane including the graph of the line x - y = 2. The closed half-plane is partially shown by shading in figure 5.8(a).
+
+The associated equation of (ii) is x + y = 4
+
+[Diagram Fig. 5.8 (a)]
+x - y = 2
+X', 0, (2, 0), (0, -2)
+Y', Y
+
+[Diagram Fig. 5.8 (b)]
+x + y = 4
+(0, 4)
+(4, 0)
+X', 0, X
+
+x-intercept and y-intercept of x + y = 4 are (4, 0) and (0, 4) respectively. The graph of the line x + y = 4 is drawn by joining the points (4,0) and (0,4). The point (0, 0) satisfies the inequality x + y ≤ 4. The closed half-plane is partially shown by shading in figure 5.8 (b).
+
+[Diagram Fig. 5.8 (c)]
+x = 0
+Y, X', 0, X, Y'
+
+[Diagram Fig. 5.8 (d)]
+
+The graph of x ≥ 0 and y ≥ 0 is shown by shading in figures 5.8 (c) and 5.8 (d) respectively.
+
+The feasible region of the given system of inequalities is the intersection of the graphs indicated in figures 5.8 (a), 5.8 (b), 5.8 (c) and 5.8 (d) and is shown as shaded region ABCD in figure 5.8 (e).
+
+Corner points of the feasible region are (0, 0), (2, 0), (3, 1) and (0, 4). Now, we find values of f(x, y) = 2x + 3y at the corner points.
+f(0, 0) = 2(0) + 3(0) = 0
+f(2, 0) = 2(2) + 3(0) = 4
+f(3, 1) = 2(3) + 3(1) = 9
+f(0, 4) = 2(0) + 3(4) = 12
+
+[Diagram Fig. 5.8 (e)]
+x + y = 4
+D(0,4)
+A(0,0)
+C(3,1)
+B(2,0)
+X', X
+x - y = 2
+Y'
+
+Thus, the minimum value of f is 0 at the corner point (0, 0) and maximum value of f is 12 at corner point (0, 4).
+
+----------------------------------------------------------------
+EXERCISE 5.2
+----------------------------------------------------------------
+
+1. Maximize f(x, y) = 2x + 5y; subject to the constraints
+2y - x ≤ 8 ; x - y ≤ 4 ; x ≥ 0 ; y ≥ 0
+
+2. Maximize f(x, y) = x + 3y; subject to the constraints
+2x + 5y ≤ 30 ; 5x + 4y ≤ 20 ; x ≥ 0 ; y ≥ 0
+
+3. Maximize z = 2x + 3y; subject to the constraints:
+2x + y ≤ 4 ; 4x - y ≤ 2 ; x ≥ 0 ; y ≥ 0
+
+4. Minimize z = 2x + y; subject to the constraints:
+x + y ≥ 3 ; 7x + 5y ≤ 35 ; x ≥ 0 ; y ≥ 0
+
+5. Maximize the function defined as; f(x, y) = 2x + 3y subject to the constraints:
+2x + y ≤ 10 ; x + 2y ≤ 14 ; x ≥ 0 ; y ≥ 0
+
+6. Find minimum and maximum values of z = 3x + y; subject to the constraints:
+3x + 5y ≥ 15 ; x + 3y ≤ 9 ; x ≥ 0 ; y ≥ 0
+
+================================================================
+REVIEW EXERCISE 5
+================================================================
+
+1. Four options are given against each statement. Encircle the correct one.
+
+i. In the following, linear equation is:
+(a) 5x > 7
+(b) 4x - 2 < 1
+(c) 2x + 1 = 1
+(d) 4 = 1 + 3
+
+ii. Solution of 5x - 10 = 10 is:
+(a) 0
+(b) 50
+(c) 4
+(d) -4
+
+iii. If 7x + 4 < 6x + 6, then x belongs to the interval
+(a) (2, ∞)
+(b) [2, ∞)
+(c) (-∞, 2)
+(d) (-∞, 2]
+
+iv. A vertical line divides the plane into
+(a) left half plane
+(b) right half plane
+(c) full plane
+(d) two half planes
+
+v. The equation formed from the linear inequality is called
+(a) cubic equation
+(b) associated equation
+(c) quadratic equation
+(d) feasible region
+
+vi. 3x + 4 < 0 is:
+(a) equation
+(b) inequality
+(c) not inequality
+(d) identity
+
+vii. Corner point is also called:
+(a) code
+(b) vertex
+(c) curve
+(d) region
+
+viii. (0,0) is solution of inequality:
+(a) 4x + 5y > 8
+(b) 3x + y > 6
+(c) -2x + 3y < 0
+(d) x + y > 4
+
+ix. The solution region restricted to the first quadrant is called:
+(a) objective region
+(b) feasible region
+(c) solution region
+(d) constraints region
+
+x. A function that is to be maximized or minimized is called:
+(a) solution function
+(b) objective function
+(c) feasible function
+(d) none of these
+
+2. Solve and represent their solutions on real line.
+(i) (x + 5)/3 = 1 - x
+(ii) (2x + 1)/3 + 1/2 = 1 - (x - 1)/3
+(iii) 3x + 7 < 16
+(iv) 5(x - 3) ≥ 26x - (10x + 4)
+
+3. Find the solution region of the following linear equalities:
+(i) 3x - 4y ≤ 12 ; 3x + 2y ≥ 3
+(ii) 2x + y ≤ 4 ; x + 2y ≤ 6
+
+4. Find the maximum value of g(x,y) = x + 4y subject to constraints x + y ≤ 4, x ≥ 0 and y ≥ 0.
+
+5. Find the minimum value of f(x,y) = 3x + 5y subject to constraints
+x + 3y ≥ 3, x + y ≥ 2, x ≥ 0, y ≥ 0.
+
+================================================================
+END OF UNIT 5: LINEAR EQUATIONS AND INEQUALITIES
+================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
