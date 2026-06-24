@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6 – RNNs, LSTMs, GRUs</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+        h1, h2 { color: #2c3e50; }
+        .diagram-container { background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <h1>Day 6 – RNNs, LSTMs, and GRUs</h1>
+
+    <h2>1. Recurrent Neural Networks (RNN)</h2>
+    <p><strong>Concept:</strong> Standard neural networks assume that all inputs (and outputs) are independent of each other. However, for sequential data like text or time series, it's crucial to remember previous inputs. RNNs solve this by passing a <em>hidden state</em> from one time step to the next, acting as the network's "memory". The hidden state is updated based on both the current input and the previous hidden state.</p>
+    <div class="diagram-container">
+        <div class="mermaid">
+        graph LR
+            x_prev["x(t-1)"] --> RNN_prev["RNN Cell (t-1)"]
+            RNN_prev --> h_prev["h(t-1)"]
+            RNN_prev --> RNN_curr["RNN Cell (t)"]
+            x_curr["x(t)"] --> RNN_curr
+            RNN_curr --> h_curr["h(t)"]
+            RNN_curr --> RNN_next["RNN Cell (t+1)"]
+            x_next["x(t+1)"] --> RNN_next
+            RNN_next --> h_next["h(t+1)"]
+        </div>
+    </div>
+
+    <h2>2. Vanishing Gradient Problem & Temporal Dependencies</h2>
+    <ul>
+        <li><strong>Vanishing Gradient:</strong> When backpropagating errors backward through time to update the network's weights, the gradients are continually multiplied by the weight matrices. If the weights are small, the gradients shrink exponentially and eventually "vanish", making it impossible to update weights for early layers.</li>
+        <li><strong>Temporal Dependencies:</strong> Because the gradients vanish, basic RNNs cannot establish connections between events that are multiple time steps apart. If a sentence has a subject at the start and a verb 20 words later, a basic RNN will forget the subject by the time it reaches the verb.</li>
+    </ul>
+
+    <h2>3. Long Short-Term Memory (LSTM)</h2>
+    <p><strong>Concept:</strong> LSTMs heavily modify the standard RNN architecture specifically pattern to solve the vanishing gradient problem. They introduce a conveyor belt-like <em>Cell State</em> that runs straight down the entire chain, with only minor linear interactions. This allows information to flow along it unchanged. LSTMs then use three "gates" (layers with sigmoid activations that output numbers between 0 and 1) to optionally add or remove information.</p>
+    <ul>
+        <li><strong>Forget Gate:</strong> Looks at the previous hidden state and current input, and outputs a number between 0 and 1 to decide how much of the old memory (Cell State) to discard.</li>
+        <li><strong>Input Gate:</strong> Decides what <em>new</em> information is going to be stored in the Cell State based on the current input.</li>
+        <li><strong>Output Gate:</strong> Filters the newly updated Cell State, pushing it through a tanh activation, and outputs the next hidden state.</li>
+    </ul>
+    <div class="diagram-container">
+        <div class="mermaid">
+        flowchart TD
+            subgraph LSTM
+            F["Forget Gate"]
+            I["Input Gate"]
+            O["Output Gate"]
+            C_update["Cell State Candidate"]
+            end
+            
+            h_prev["Previous Hidden State: h(t-1)"] --> F & I & O & C_update
+            x_t["Input: x(t)"] --> F & I & O & C_update
+
+            C_prev["Previous Cell State: C(t-1)"] --> F
+            F --> C_t["New Cell State: C(t)"]
+            I --> C_update
+            C_update --> C_t
+            
+            C_t --> O
+            O --> h_t["New Hidden State: h(t)"]
+        </div>
+    </div>
+
+    <h2>4. Gated Recurrent Unit (GRU)</h2>
+    <p><strong>Concept:</strong> The GRU is a streamlined, more efficient version of the LSTM. It gets rid of the separate Cell State entirely and uses only the hidden state to transfer information. Because it has fewer tensor operations, GRUs train faster than LSTMs while often achieving very similar performance.</p>
+    <ul>
+        <li><strong>Reset Gate:</strong> Acts a bit like the forget gate. It decides how much of the past information to forget before evaluating the new candidate state.</li>
+        <li><strong>Update Gate:</strong> This gate combines the duties of the LSTM's forget and input gates. It decides both what to throw away and what new information to add at the same time.</li>
+    </ul>
+    <div class="diagram-container">
+        <div class="mermaid">
+        flowchart TD
+            subgraph GRU
+            R["Reset Gate"]
+            U["Update Gate"]
+            H_cand["Candidate State"]
+            end
+            
+            h_prev["Previous Hidden State: h(t-1)"] --> R & U & H_cand
+            x_t["Input: x(t)"] --> R & U & H_cand
+            
+            R -.->|Filters Past| H_cand
+            U -->|Controls Mixing| h_t["New Hidden State: h(t)"]
+            H_cand --> h_t
+        </div>
+    </div>
+
+</body>
+</html>

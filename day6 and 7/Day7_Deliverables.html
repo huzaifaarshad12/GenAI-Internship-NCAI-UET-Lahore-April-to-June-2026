@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 – Transformer Architecture</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+        h1, h2 { color: #2c3e50; }
+        .diagram-container { background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <h1>Day 7 – Transformer Architecture</h1>
+
+    <h2>1. Key Concepts Explained</h2>
+    <ul>
+        <li><strong>Attention Mechanism:</strong> In sequence models, a bottleneck occurs if all context must be compressed into a single, fixed-size vector. The attention mechanism solves this by looking at all preceding tokens directly. It assigns a "weight" or "score" to every other word, indicating how much focus the model should place on it when understanding the current word.</li>
+        <li><strong>Self-Attention:</strong> Specifically, this is how tokens interact within the SAME sequence. For the sentence "The bank of the river", when analyzing "bank", self-attention calculates high weights for "river" to deduce it means a geographical feature rather than a financial institution. It uses a mathematical operation involving learned Query (Q), Key (K), and Value (V) matrices.</li>
+        <li><strong>Multi-Head Attention:</strong> Instead of performing just one attention operation, Transformers run many in parallel (multiple "heads"). Each head can learn to focus on different linguistic phenomena—for example, one head might track grammatical structure (subject-verb agreement), while another focuses on sentiment or pronoun antecedents.</li>
+        <li><strong>Positional Encoding:</strong> Unlike RNNs that read words sequentially left-to-right, Transformers read entire sentences at once in parallel. This is incredibly fast but destroys all sense of word order. Positional encoding vectors (calculated using sine and cosine waves of different frequencies) are merged with the initial word embeddings. This gives the transformer a distinct mathematical signal about where each word is located absolutely and relatively.</li>
+        <li><strong>Encoder-Decoder Structure:</strong>
+            <ul>
+                <li><strong>The Encoder:</strong> Processes the entire input sentence. It passes data through multi-head self-attention and feed-forward layers to output a deep, highly contextualized representation of the original text.</li>
+                <li><strong>The Decoder:</strong> Generates the output step-by-step. It uses "Masked" self-attention so it cannot cheat by looking at future words it hasn't generated yet. Importantly, it uses an "Encoder-Decoder Cross-Attention" layer, where its Queries check the Keys and Values from the final Encoder output to decide what translated word comes next.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>2. Transformer Architecture Concept Map</h2>
+    <div class="diagram-container">
+        <div class="mermaid">
+        graph TD
+            classDef layer fill:#bbf,stroke:#333,stroke-width:1px;
+
+            Inputs["Input Sequence (e.g. English)"] --> InputEmb("Input Embedding")
+            InputEmb --> PosEnc1("Positional Encoding")
+            PosEnc1 --> EncoderBlock
+            
+            subgraph Encoder
+                EncoderBlock(("Encoder Layer"))
+                EncoderBlock --> MHA1["Multi-Head Self-Attention"]:::layer
+                MHA1 --> AddNorm1["Add & Norm (Skip Connection)"]:::layer
+                AddNorm1 --> FF1["Feed Forward"]:::layer
+                FF1 --> AddNorm2["Add & Norm"]:::layer
+            end
+
+            Outputs["Target Sequence (Shifted Right)"] --> TargetEmb("Output Embedding")
+            TargetEmb --> PosEnc2("Positional Encoding")
+            PosEnc2 --> DecoderBlock
+            
+            subgraph Decoder
+                DecoderBlock(("Decoder Layer"))
+                DecoderBlock --> MMHA["Masked Multi-Head Attention<br/>(Prevents looking at future tokens)"]:::layer
+                MMHA --> AddNorm3["Add & Norm"]:::layer
+                AddNorm3 --> MHA2["Multi-Head Cross-Attention<br/>(Queries: Decoder | Keys/Values: Encoder)"]:::layer
+                MHA2 --> AddNorm4["Add & Norm"]:::layer
+                AddNorm4 --> FF2["Feed Forward"]:::layer
+                FF2 --> AddNorm5["Add & Norm"]:::layer
+            end
+
+            AddNorm2 --> MHA2
+
+            AddNorm5 --> Linear("Linear Layer")
+            Linear --> Softmax("Softmax")
+            Softmax --> OutputProb["Output Word Probabilities"]
+        </div>
+    </div>
+
+</body>
+</html>
